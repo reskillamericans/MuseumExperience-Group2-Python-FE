@@ -1,18 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Footer1 from './main/Footer/footer';
-import "./main/Footer/footer.css";
-
-
-
+import Navbar from './Navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
-      
-
-     <Footer1/>
-
+      <header className="App-header">
+        <Navbar />
+      </header>
     </div>
   );
 }
