@@ -1,8 +1,8 @@
-import './Login.css';
+import './SignUp.css';
 
 import React from 'react'
 
-export default function App() {
+export default function SignUp() {
   return (
     <>
       
