@@ -1,11 +1,11 @@
-import Navbar from './Navbar/Navbar'
+import './App.css';
+import Login from './admin/Login/login.js'
+import "./admin/Login/login.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
+      <Login/>
     </div>
   );
 }
