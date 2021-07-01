@@ -15,26 +15,34 @@ function App() {
             
       </div>
 
-        
+         
+          
+            
      <div className="image-name">
             <img  src="/image/image2.png" />
           
         <text>DaVinci Exhibit</text>
-      </div>
-      
+            </div>
         
+         
+      
+      
+      
         <div className="image-name">
             <img id="image3" src="/image/image3.png" />
             
       <text>Degas Exhibit</text>
       </div>
       </div>
+        
+        
       
     <div id="row2" className="rows">
       <div className="image-name">
       <img src="/image/image4.png" />
       <text>Egyptian Art Exhibit</text>
-      </div>
+          </div>
+        
 
       <div className="image-name">
       <img  src="/image/image5.png" />
