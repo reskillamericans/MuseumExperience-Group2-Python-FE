@@ -1,11 +1,12 @@
-import './App.css';
-import Login from './main/Login/Login.js'
-import "./main/Login/Login.css"
+import HomePage from './main/HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+      {/*<header className="App-header">
+        <Navbar />
+  </header>*/}
+  <HomePage />
     </div>
   );
 }
