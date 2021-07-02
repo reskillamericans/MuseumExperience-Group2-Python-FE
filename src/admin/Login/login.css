@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+.container {
+    background-color:#C80764;
+    display: grid;
+    margin-top: 200px; 
+    width: 1600px;
+    height: 768px; 
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 100px;
+    
+}
+.adminL {
+display: flexbox;
+flex-direction: column;
+background-color: white;
+border-radius: 20px;
+width: 786px;
+height: 486px;
+margin-top: 125px;
+font-family: Red Hat Display;
+position: relative;
+}
+form {
+    margin-top: -3%;
+}
+.login {
+    background-color: #C80764;
+    width: 343px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px; 
+    border: none;
+    color: white;
+}
+.adminlog {
+    margin-top: 8em;
+    font-size: 16px;
+    margin-bottom: 3em;
+}
+.musad {
+    display: none;
+}
+input {
+    background-color:#EEEEEE;
+    width: 343px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 5px ;
+    border: none;
+}
+.email {
+    margin-left: -37%;
+    font-size: 13px;
+    font-weight: 700;
+}
+.pass {
+    margin-left: -33%;
+    font-size: 13px;
+    font-weight: 700;   
+}
+.dont {
+    padding-left: 23em;
+}
+.account {
+    margin-top: -3%;
+}
+a:link {
+    color:#FFFAFA;
+    text-decoration: none;
+}      
+a:visited {
+    color:#FFFAFA;
+    text-decoration: none;
+}  
+a:hover {color:#FFFAFA;} 
+a:active {color:#FFFAFA;}
+
+.getst {
+    color:black;
+}
+
+img {
+    margin-bottom: -13%;
+}
+.create {
+    display: none;
+}
+::placeholder {
+    color: #EEEEEE;
+}
+
+@media (max-width: 480px){
+    .adminlog {
+        display: none;
+    }
+    .musad {
+        display: inline-block ;
+        margin-top: -4%;
+        font-size: 30px;
+    }
+    .gold {
+        color: #A89804;
+    }
+    img {
+        margin-bottom: 7%;
+        margin-top: -0%;
+        margin-left: 46%;
+        width: 10%;
+    }
+    .container {
+        background-color: white;
+    margin-top: -55%;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: 50%;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+    }
+    label {
+        display: none;
+    }
+    .account {
+        display: none;
+    }
+    a:link {color:#1482db;}     
+    a:visited {color:#1482db;}  
+    a:hover {color:#1482db;}  
+    a:active {color:#1482db;}
+
+    .create {
+        display: inline-block;
+        font-size: 13px;
+        color: rgb(175, 174, 174); 
+    }
+    .adminL {
+        display: flex;
+        flex-direction: column;
+        margin-top: 45%;
+        font-family: Red Hat Display;
+        justify-content: center;
+        margin-left: 0%;
+        height: fit-content;
+        
+        }
+    input {
+        background-color:#ffffff;
+        width: 18em;
+        height: 3em;
+        margin-top: 10px;
+        border-radius: 5px ;
+        border-color: rgba(161, 160, 160, 0.692);
+        border-style: solid;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
+    ::placeholder {
+        color: #c5c2c2;
+        font-size: 14px;
+        padding-left: 5%;
+    }
+
+    .login {
+        background-color: #C80764;
+        width: 21em;
+        height: 3em;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 0%;
+        margin-bottom: 1%; 
+        font-size: 12px;
+    }
+}

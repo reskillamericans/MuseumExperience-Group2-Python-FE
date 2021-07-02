@@ -1,12 +1,13 @@
-import HomePage from './main/HomePage/HomePage';
+import SearchPage from './main/SearchPage/SearchPage';
 
 function App() {
   return (
     <div className="App">
       {/*<header className="App-header">
         <Navbar />
-  </header>*/}
-  <HomePage />
+  </header>
+  <HomePage />*/}
+  <SearchPage />
     </div>
   );
 }
