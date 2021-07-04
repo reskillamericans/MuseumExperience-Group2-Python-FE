@@ -1,11 +1,17 @@
 import './App.css';
 import Register from './main/Register/Register.js'
-import "./main/Register/Register.css"
+import SearchPage from './main/SearchPage/SearchPage';
+import Account from './Account/AccountPage';
+import Navbar from './main/Navbar/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-      <Register/>
+      <Register />
+       <Account/>
+        {/*<HomePage />
+        <SearchPage /> */}
     </div>
   );
 }

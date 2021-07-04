@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function footer1() {
+ function footer1() {
     return (
         <div classNAme= "background">
             <body className= "footerContainer">
@@ -37,3 +37,4 @@ export default function footer1() {
         </div>
     )
 }
+export default footer1
