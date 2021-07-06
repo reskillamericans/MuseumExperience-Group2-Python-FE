@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 
-function App() {
+function exhibit() {
   return (
     <>
       
@@ -62,4 +62,5 @@ function App() {
     );
 }
 
-export default App;
+export default exhibit;
+

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img{
+    width: 90%;
+    height: 16rem;
+  }
+  #image3{
+   border-radius:10px ;
+  }
+  
+  .image-name{
+    
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  
+  }
+  text{
+    margin-top: .6rem;
+    font-weight: bold;
+  }
+  .rows{
+    
+    margin: auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    
+    
+  }
+  
+  #row1{
+    margin-top: 5rem;
+  }
+  
+  #row2{
+  margin-top: 1.3rem;
+  }
+  
