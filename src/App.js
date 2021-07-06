@@ -1,19 +1,14 @@
 import './App.css';
-import Register from './main/Register/Register.js'
-import SearchPage from './main/SearchPage/SearchPage';
-import Account from './Account/AccountPage';
-import Navbar from './main/Navbar/Navbar';
-
+import Login from './main/Login/Login.js'
+import "./main/Login/Login.css"
 
 function App() {
   return (
     <div className="App">
-      <Register />
-       <Account/>
-        {/*<HomePage />
-        <SearchPage /> */}
+      <Login/>
     </div>
   );
 }
 
 export default App;
+
