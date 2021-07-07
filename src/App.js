@@ -1,11 +1,13 @@
 import './App.css';
-import Login from './main/Login/Login.js'
-import "./main/Login/Login.css"
+import Info from './main/Exhibitinfo/exhibitinfo.js'
+import './main/Exhibitinfo/exhibitinfo.css'
+
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+
+      <Info/>
     </div>
   );
 }
