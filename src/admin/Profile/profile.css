@@ -1,0 +1,220 @@
+body{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    overflow-x: hidden;
+}
+/*grid stuff*/
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "logo head head"
+    "aside main main"
+    "aside main main";
+}
+.header{
+    grid-area: head;
+    background: #C80764;
+    position: relative;
+    width: auto;
+    height: 68px;
+
+}
+.logo{
+    grid-area: logo;
+}
+.aside{
+    grid-area: aside;
+    background: #C4C4C4;
+}
+.mainbody{
+    grid-area: main;
+    
+}
+/*header styling*/
+#profile{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 95%;
+    right: 0%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#mail,#exit,#bell{
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+}
+#mail{
+    position: absolute;
+    left: 80%;
+    right: 8.15%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#bell{
+    position: absolute;
+    left: 85%;
+    right: 3.98%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#exit{
+    position: absolute;
+    left: 90%;
+    right: 0%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+input{
+    position: absolute;
+    left: 5%;
+    right: 61.61%;
+    top: 16.22%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 405px;
+    height: 37px;
+    border: none;
+}
+.button{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 25%;
+    left: 31em;
+}
+
+/*aside styling*/
+#button1{
+    background:  #C80764;
+    color: #FFFFFF;
+    border-radius: 0.25em;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    width: 100%;
+    border: none;
+    padding: .7em;
+    text-align: left;
+    margin-bottom: 34em;
+}
+.stats{
+    display: inline-block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-left: 1em;
+}
+.number{
+    display: inline-block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #C80764;
+}
+
+
+/*main container styling*/
+#p1{
+    position: relative;
+    left: 2em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #8A8A8A;
+}
+.container1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #EAEAEA;
+    padding-top: 2em;
+    width: 866px;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    left: 156px;
+}
+#face{
+    width: 171px;
+    height: 161px;
+}
+.info> p:first-child{
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+}
+.info>p:nth-child(2){
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+}
+.info>p:nth-child(3){
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #C80764;
+    text-align: center;
+}
+.questions{
+   background:  #A89704;
+   border-radius: 7px;
+   width: 330px;
+   height: 107px;
+}
+.questions p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+.questions > p:first-child{
+    font-size: 28px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.24px;
+}
+#p2{
+    color: #8A8A8A;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center; 
+}
+.container2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    margin-bottom: 3em;
+    left: 100px;
+}
+#flowers, #paint, #impression{
+    width: 271px;
+    height: 272px;
+}
+.b2{
+    background: none;
+    border: none;
+}
