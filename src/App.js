@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './Exhibitpage.css';
+import logo from './logo.svg'
+import './App.css'
 
-
-function ExhibitPage() {
-  return (
-    <>
-      
-      <div id="row1" className="rows">
+function App() {
+    return (
+        <>
+            
+            <div id="row1" className="rows">
         <div className="image-name">
         
             <img className="row1-pics" src="/image/image1.png" />
@@ -57,9 +56,9 @@ function ExhibitPage() {
   
       
 
-    
-      </>
+
+
+        </>
     );
 }
-
-export default ExhibitPage;
+export default App
