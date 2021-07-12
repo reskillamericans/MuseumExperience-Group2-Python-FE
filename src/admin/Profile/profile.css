@@ -68,7 +68,7 @@ body{
     top: 16.22%;
     bottom: 18.92%;
 }
-input{
+.profileInput{
     position: absolute;
     left: 5%;
     right: 61.61%;

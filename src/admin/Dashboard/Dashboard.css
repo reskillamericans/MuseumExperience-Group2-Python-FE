@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dashboardMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    background: #E5E5E5;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #FFFFFF;
+}
+
+.dashboardTotalsMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    height: 95px;
+    background: #A89804;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.dashboardTotalTextMobile {
+    margin-left: 43px;
+}
+
+.dashboardCount {
+    font-size: 28px;
+    line-height: 33px;
+    margin-right: 20px;
+}
+
+.dashboardVisit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    height: 67px;
+    background: #C80764;
+}
+
+.dashboardBoxstyle {
+    font-size: 21px;
+    line-height: 25px;
+    width: 371px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.dashboardTotals {
+    display: none;
+}
+
+.dashboardTableContainer {
+    display: none;
+}
+
+@media(min-width: 1110px) {
+
+    .dashboardBoxstyle {
+        display: none;
+    }
+
+    .dashboardTotalContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+        margin: 76px 0 52px 0;
+    }
+
+    .dashboardTotals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 149px;
+        width: 328px;
+        border-radius: 10px;
+        background: #A89804;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .dashboardCount {
+        font-size: 37px;
+        line-height: 49px;
+    }
+
+    .dashboardTotalText {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .dashboardTotalMargin {
+        margin-left: 30px;
+    }
+
+    .dashboardTableContainer {
+        width: 1068px;
+        height: 617px;
+        display: flex;
+        flex-direction: column;
+        background: #F0F0F0;
+        padding: 25px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .dashboardTableLabel {
+        font-size: 28px;
+        line-height: 37px;
+        color: #000000;
+    }
+
+    .dashboardTable {
+        font-size: 21px;
+        line-height: 28px;
+        color: #8A8A8A;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    .dashboardRow1 {
+        width: 1012px;
+        height: 50px;
+        text-align: left;
+        background: #FFFFFF;
+        border: 1px solid #8A8A8A;
+    }
+
+    .dashboardTable input {
+        width: 28px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #8A8A8A;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 8px 49px 0 33px;
+    }
+
+    .dashboardRows {
+        width: 1012px;
+        height: 153px;
+        background: #E5E5E5;
+        border: 1px solid #8A8A8A;
+        text-align: left;
+        padding-right: 32px;
+    }
+    
+    .dashboardRowMid {
+        background: #FFFFFF;
+    }
+
+    .dashboardDate {
+        width: 150px;
+    }
+
+    .dashboardTime {
+        width: 175px;
+    }
+
+    .dashboardAuthor {
+        width: 225px;
+    }
+}
