@@ -25,31 +25,27 @@ function Profile() {
                 <img src={bell} alt='notifications' id='bell' />
                 <img src={exit} alt='logout' id='exit' />
                 <img src={face} alt='face' id='profile' />
-            </div>
-            <div className='logo'>
-                <img src={logo} alt='logo' />
-                <img src={name} alt='museum' />
-            </div>
-            <div className='aside'>
-                <button id='button1'>Sign Out</button>
-                <p className='stats'>Total No. Exhibits</p> <p className='number'>46</p>
-                <p className='stats'>Total No. Questions</p> <p className='number'>1</p>
-                <p className='stats'>Answered Questions</p> <p className='number'>10</p>
-                <p className='stats'>Unanswered Questions</p> <p className='number'>3</p>
-            </div>
-            <div className='mainbody'>
-                <p id='p1'>Profile</p>
-                <div className='container1'>
-                    <img src={face} alt='face' id='face' />
-                    <div className='info'>
-                        <p>Tiffany Fambry</p>
-                        <p>Tiffany.Fambry@museum.com</p>
-                        <p>Curator</p>
-                    </div>
-                    <div className='questions'>
-                        <p>20</p>
-                        <p>Total Answered Questions</p>
-                    </div>
+            
+             </div>
+        <div className='logo'>
+            <img src={logo} alt='logo'/>
+            <img src={name} alt='museum'/>
+        </div>
+        <div className='aside'>
+            <button id='button1'>Sign Out</button>
+            <p className='stats'>Total No. Exhibits</p> <p className='number'>46</p>
+            <p className='stats'>Total No. Questions</p> <p className='number'>13</p>
+            <p className='stats'>Answered Questions</p> <p className='number'>10</p>
+            <p className='stats'>Unanswered Questions</p> <p className='number'>3</p>
+        </div>
+        <div className='mainbody'>
+            <p id='p1'>Profile</p>
+            <div className='container1'>
+                <img src={face} alt='face' id='face'/>
+                <div className='info'>
+                    <p>Tiffany Fambry</p>
+                    <p>Tiffany.Fambry@museum.com</p>
+                    <p>Curator</p>
                 </div>
                 <p id='p2'>Recently Edited Exhibits</p>
                 <div className='container2'>
@@ -63,6 +59,7 @@ function Profile() {
 
             </div>
 
+        </div>
         </div>
 
     );
