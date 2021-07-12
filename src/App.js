@@ -1,13 +1,13 @@
-import Profile from './admin/Profile/profile'
-import Dashboard from './admin/Dashboard/Dashboard'
+
+import Addartwork from './admin/AddArtwork/addartwork'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Profile /> */}
-      <Dashboard />
-
+     
+      <Addartwork/>
+    
     </div>
   );
 }
