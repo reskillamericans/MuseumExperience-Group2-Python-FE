@@ -1,0 +1,317 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "logo head head"
+    "logo main main"
+    "aside main main"
+    "aside main main";
+}
+.header{
+    grid-area: head;
+    background: #C80764;
+    position: relative;
+    width: auto;
+    height: 68px;
+}
+/*header styling*/
+#profile{
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 95%;
+    right: 0%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#mail,#exit,#bell{
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+}
+#mail{
+    position: absolute;
+    left: 80%;
+    right: 8.15%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#bell{
+    position: absolute;
+    left: 85%;
+    right: 3.98%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+#exit{
+    position: absolute;
+    left: 90%;
+    right: 0%;
+    top: 16.22%;
+    bottom: 18.92%;
+}
+.input{
+    position: absolute;
+    left: 5%;
+    right: 61.61%;
+    top: 16.22%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 405px;
+    height: 37px;
+    border: none;
+}
+.button{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 25%;
+    left: 31em;
+}
+.logo{
+    grid-area: logo;
+}
+/******/
+.aside{
+    grid-area: aside;
+    background: #FFFFFF;
+    border: 1px solid #8A8A8A;
+    margin-top: 1em;
+    padding-bottom: 2.5em;
+}
+/*aside styling*/
+.nav{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    box-sizing: border-box;
+    padding-left: 1em;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 28px;
+    line-height: 37px;
+}
+.aside-b1, .aside-b3{
+    background-color: #FFFFFF;
+    width: 100%;
+    border:1px solid #8A8A8A ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    padding: 1em;
+    text-align: initial;
+}
+.aside-b2{
+    width: 100%;
+    background: #C80764;
+    border: 1px solid #C80764;
+    box-sizing: border-box;
+    padding: 1em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: initial;
+
+}
+.aside-b2::before{
+    position: absolute;
+    content: '';
+    width: 53px;
+    height: 53px;
+    background: white;
+    z-index: 100;
+    left: 23.2%;
+    top: 29.5%;
+    transform: rotate(45deg);
+}
+.aside-b3{
+    margin-bottom: 21.5em;
+}
+.stats{
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #8a8a8a;
+    padding-left: 1em;
+}
+.number{
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #C80764;
+}
+/****/
+.main{
+    grid-area: main;
+}
+/*main styling*/
+#mainp{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #8A8A8A;
+    margin-left: 61px;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+form{
+    display: inline-block;
+}
+.mainlabel{
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #8A8A8A;
+    margin-left: 61px;
+}
+
+.maininput-3{
+    resize: none;
+    width: 830px;
+    height: 286px;
+    background: #FFFFFF;
+    border: 1px solid #8A8A8A;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-top: 4em;
+    margin-left: 207.07px;
+    margin-bottom: 3.5em;
+    font-size: 21px;
+    font-weight: 500;
+    color: #8A8A8A;
+}
+.empty{
+    width: 830px;
+    height: 48px;
+    background: #F9F9F9;
+    border: 1px solid #8A8A8A;
+    box-sizing: border-box;
+    border-radius: 0px 0px 6px 6px;
+    position: absolute;
+    left: 24.48em;
+    top: 22.5em;
+}
+.emptyp{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #8A8A8A;
+    text-align: right;
+    padding-right: .8em;
+}
+.empty1{
+    width: 830px;
+    height: 61px;
+    background: #F9F9F9;
+    border: 1px solid #8A8A8A;
+    box-sizing: border-box;
+    border-radius: 0px 0px 6px 6px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    position: absolute;
+    top: 11.5em;
+    left: 24.48em;
+}
+.maininput-1, .maininput-4{
+    width: 830px;
+    height: 50px;
+    margin-left: 207.07px;
+    background: #FFFFFF;
+    border: 1px solid #8A8A8A;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.maininput-1{
+    margin-bottom: 2em;
+}
+.maininput-4{
+    margin-bottom: 41px;
+}
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    margin-bottom: 2.5em;
+    margin-left: 140.07px;
+}
+.button-1, .button-2, .button-3{
+    border: 1px solid #8A8A8A;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.pluscircle{
+    margin-top: 4em;
+}
+
+.plusart{
+    border: 1px solid #C80764;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    position: relative;
+    height: 40px;
+    width: 590px;
+    left: 327.7px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-bottom: 4em;
+}
+#save{
+    margin-left: 240px;
+    display: inline-block;
+    height: 40px;
+    width: 99px;
+    background: #C80764;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 0.8em;
+    font-size: 13px; 
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    font-weight: bold;
+}
+#cancel{
+    display: inline;
+    height: 40px;
+    width: 99px;
+    border: 1px solid #8A8A8A;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #8A8A8A;
+}
+#save, #cancel{
+    margin-top: 3.5em;
+}
