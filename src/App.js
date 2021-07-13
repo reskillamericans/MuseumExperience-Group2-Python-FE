@@ -1,11 +1,12 @@
-import Exhibit from './admin/Exhibit/exhibit'
-
+import './App.css';
+import AboutUs from './admin/AboutUs/AboutUs.js'
+import "./admin/AboutUs/AboutUs.css"
 
 function App() {
   return (
     <div className="App">
-    <Exhibit/>
-
+     {/*<Login/> */} 
+     <AboutUs />
     </div>
   );
 }
