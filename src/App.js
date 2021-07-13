@@ -1,10 +1,10 @@
-import CreateExhibit from './admin/CreateExhibit/createexhibit'
+import Exhibit from './admin/Exhibit/exhibit'
 
 
 function App() {
   return (
     <div className="App">
-    <CreateExhibit/>
+    <Exhibit/>
 
     </div>
   );
