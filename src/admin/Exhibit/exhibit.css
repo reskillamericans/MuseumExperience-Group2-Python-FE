@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+* {
+  font-family: red hat display;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100.3%;
+    height: 68px;
+    border: none;
+    background-color: #C80764;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.bar {
+    border:1px black solid; 
+    margin-left: 30%;
+    margin-top: 1%;
+    padding-right: 0%;
+    width: 405px;
+    height: 37px;
+    border-radius: 20px; 
+    position: absolute;
+    background-color: white;
+
+}
+#site-search {
+    width: 405px;
+    height: 39px;
+    border-radius: 20px;
+    border: none;   
+}
+.serbut {
+  margin-left: -10%;
+  position: absolute;
+  margin-top: 1.5%;
+  background-color: transparent;
+  border: none;
+}
+.logo {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48.95px;
+    height: 100%;
+    padding-left: 1%;
+    padding-top: 0%;
+    border: none;
+    padding-bottom: 1%;
+    
+}
+.muspic {
+  width: 11%;
+  margin-top: 2%;
+  
+}
+h1{
+    display: inline;
+    font-family: red hat display;
+}
+.gold {
+    color: #A89804;
+}
+.mail,.bell,.logout {
+  margin-top: 20px;
+}
+.mail {
+  margin-left: 925px;
+}
+.bell {
+  margin-left: 20px;
+}
+.logout {
+  margin-left: 20px;
+  padding-right: 20px;
+}
+.proimage {
+margin-top: 9px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  border: 1px solid #8A8A8A;
+  border-bottom: none;
+  margin-top: 2%;
+  
+}
+a:link {color: black;
+  text-decoration: none;}     
+a:visited {color:black;
+  text-decoration: none;}  
+a:hover {color:black;}  
+a:active {color:black;}
+.navimen,.dash,.exhi {
+  background-color: white;
+  height: 62px;
+  border: 1px solid #8A8A8A;
+  text-align: left;
+  font-size: 17px;
+  padding-left: 10%;
+}
+.navimen {
+  margin-left: -5%;
+  font-size: 18px;
+}
+.menu {
+  margin-top: 3%;
+}
+.exhi {
+  border-right: none;
+  background-color: #C80764;
+  border: none;
+  color: white;
+}
+.poly{
+  display: block;
+  margin-left: 92%;
+  margin-top: -18%;
+}
+.total {
+  margin-top: 120%;
+}
+.unans {
+  padding-bottom: 5%;
+}
+p {
+  text-align: left;
+  margin-left: 15%;
+  font-size: 22px;
+  line-height: 1px;
+  color: #8A8A8A;;
+}
+.pink {
+  color: #C80764;
+}
+.cards {
+    margin-left: 400px;
+    margin-top: -870px;
+    height: 956px;
+}
+
+.column {
+    float: left;
+    padding-left: 48px;
+    padding-bottom: 50px;
+  }
+  .row {
+    margin: 0 -5px;
+    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  
+  /* Style the counter cards */
+  .card {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 22px; 
+    background-color: #A89804;
+    color: white;
+    height: 125px;
+    width: 320px;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 20px;
+  }
+  .component {
+    margin-left: 190%;
+  }
+  .exhibit {
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .createcard {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 22px;
+    padding-left: 0px;
+    background-color: white;
+    color: #C80764;
+    justify-content: center;
+    height: 147px;
+    width: 320px;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+  }
+ 
+  .circle {
+    display: block;
+    margin-top: 150%;
+    margin-left: 30%;
+  }
+  .horizplus {
+    display: block;
+    margin-left: -115%;
+    margin-top: 430%;
+  }
+  .vertiplus {
+    display: block;
+    margin-left: -250%;
+    margin-top: 1950%;
+  }
+  .mobilehead {
+    display: none;
+  }
+  .mobilefoot {
+    display: none;
+  }
+
+ /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      overflow-y: hidden;
+      background-color: #FFFFFF;
+    }
+    .mobilehead {
+      display: flex;
+      flex-direction: row;
+      background-color: #C80764;
+      width: 100%;
+    }
+    .row{
+      padding-right: 0px;
+      width: 10%;
+    }
+    .mobileh1 {
+      font-size: 23px;
+      margin-left: 25%;
+      margin-top: 40px;
+      font-weight: 100;
+      color: white;
+    }
+    .card {
+      border-radius: 10px;
+      height:110px;
+      width: 370px;
+    }
+    .createcard {
+      font-size: 18px;
+      border-radius: 10px;
+      height:145px;
+      width: 370px;
+      border: 1px solid #8A8A8A;
+    }
+    .create {
+      margin-top: 10%;
+    }
+    .serwhite {
+      display: block;
+      margin-left: 3%;
+      margin-top: 5%;
+      background-color: transparent;
+      border: none;
+
+    }
+    .bell,.mail,.proimage{
+      margin-left: 0%;
+    }
+    .mail {
+      display: block;
+      margin-left: 100%;
+      margin-top: 180%;
+    }
+    .bell {
+      margin-left: 190%;
+      margin-top: 44px;
+    }
+    .proimage {
+      margin-left: 130%;
+      margin-top: 30px;
+      width: 50px;
+    }
+    .column {
+      width: 90%;
+      display: block;
+      margin-bottom: 20px;
+      padding-left: 0%;
+      padding-bottom: 0%;
+      padding-right: 0%;
+    }
+    .nav {
+      display: none;
+    }
+    .header {
+      display: none;
+    }
+    .cards {
+      margin-left: 6% ;
+      height: 100%;
+      margin-top: 10%;
+      width: 50%;
+    }
+    .mobilefoot {
+      display: flex;
+      flex-direction: row;
+      display: block;
+      width: 100%;
+      position: fixed;
+      background-attachment: scroll;
+      height: 60px;
+      background-position: 0% 0%;
+      bottom: 0pt;
+      left: 0pt;
+      background-color:  rgba(249, 249, 249, 0.94);
+      padding-bottom: 11%;
+      margin-left: 5%;
+      margin-bottom: 0%;
+    }
+    .footpro,.footdash,.footmess,.footexhi {
+      border: none;
+      background-color: transparent;
+    }
+
+  }
