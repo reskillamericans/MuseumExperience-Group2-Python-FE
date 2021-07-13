@@ -1,11 +1,12 @@
 import './App.css';
-import Login from './admin/Login/login.js'
-import "./admin/Login/login.css"
+import AboutUs from './admin/AboutUs/AboutUs.js'
+import "./admin/AboutUs/AboutUs.css"
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+     {/*<Login/> */} 
+     <AboutUs />
     </div>
   );
 }
