@@ -1,13 +1,11 @@
-import Exhibitpage from './main/ExhibitPage/Exhibitpage' 
-import Addartwork from './admin/AddArtwork/addartwork'
+import CreateExhibit from './admin/CreateExhibit/createexhibit'
 
 
 function App() {
   return (
     <div className="App">
-     
-     <Exhibitpage />
-    
+    <CreateExhibit/>
+
     </div>
   );
 }
