@@ -1,12 +1,13 @@
-// import Exhibit from './admin/Exhibit/exhibit'
-import Roles from './admin/Roles/Roles'
+// import Exhibit from './main/AboutUsMain/AboutUsMain'
+import AboutUsMain from './main/AboutUsMain/AboutUsMain'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Exhibit/> */}
-      <Roles />
+      {/* <Exhibit/> 
+      <Roles />*/}
+      <AboutUsMain />
     </div>
   );
 }
