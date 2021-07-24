@@ -9,12 +9,12 @@ import mvec from "../Exhibitinfo/MVector.svg";
 
 export default function Exhibitinfo() {
   return (
-    <div className="container">
-      <div className="info">
-        <button className="register">
+    <div className="exhibit_info_container">
+      <div className="exhibit_info_info">
+        <button className="exhibit_info_register">
           Register to Get Updates on This Exhibit
         </button>
-        <p className="deskpara">
+        <p className="exhibit_info_deskpara">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur
           tristique eros at efficitur. Pellentesque tincidunt ullamcorper velit
           eu dignissim. Morbi at risus lacus. Suspendisse non augue sit amet
@@ -26,7 +26,7 @@ export default function Exhibitinfo() {
           velit varius iaculis. Duis cursus pellentesque nisl eget pellentesque.
         </p>
 
-        <div className="mpara">
+        <div className="exhibit_info_mpara">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur tristique eros at efficitur. Pellentesque tincidunt
@@ -39,8 +39,8 @@ export default function Exhibitinfo() {
           </p>
         </div>
 
-        <img src={Vid} className="vid" alt="video" />
-        <p className="deskpara">
+        <img src={Vid} className="exhibit_info_vid" alt="video" />
+        <p className="exhibit_info_deskpara">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur
           tristique eros at efficitur. Pellentesque tincidunt ullamcorper velit
           eu dignissim. Morbi at risus lacus. Suspendisse non augue sit amet
@@ -49,20 +49,20 @@ export default function Exhibitinfo() {
           interdum blandit diam et semper. Maecenas faucibus eu sapien in
           auctor. Nunc tristique et turpis sit amet ultrices.{" "}
         </p>
-        <button className="vector">
+        <button className="exhibit_info_vector">
           <img src={vec} alt="comment" />
         </button>
       </div>
-      <h1 className="edgar">EDGAR DEGAS</h1>
-      <div className="pics">
-        <img src={img1} className="im1" alt="image of a woman" />
-        <button className="curator">
+      <h1 className="exhibit_info_edgar">EDGAR DEGAS</h1>
+      <div className="exhibit_info_pics">
+        <img src={img1} className="exhibit_info_im1" alt="image of a woman" />
+        <button className="exhibit_info_curator">
           Ask the Curator <img src={mvec} alt="comment" />
         </button>
 
-        <img src={img2} className="im2" alt="image of family" />
-        <img src={img3} className="im3" alt="image of a girl" />
-        <img src={img4} className="im4" alt="image of flowers" />
+        <img src={img2} className="exhibit_info_im2" alt="image of family" />
+        <img src={img3} className="exhibit_info_im3" alt="image of a girl" />
+        <img src={img4} className="exhibit_info_im4" alt="image of flowers" />
       </div>
     </div>
   );
