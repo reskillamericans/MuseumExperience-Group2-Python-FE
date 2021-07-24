@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
-.container {
+
+.exhibit_info_container {
   margin-top: 20%;
   display: grid;
   width: 1200px;
@@ -8,10 +9,10 @@
   font-size: 16px;
   margin-left: 10%;
 }
-button {
+.exhibit_info_container button {
   background-color: #e8840d;
 }
-.info {
+.exhibit_info_info {
   display: flex;
   flex-direction: column;
   width: 445px;
@@ -20,7 +21,7 @@ button {
   grid-area: info;
   margin-top: -10%;
 }
-.register {
+.exhibit_info_register {
   width: 488px;
   color: white;
   border-radius: 25px;
@@ -28,16 +29,16 @@ button {
   border-color: transparent;
   margin-bottom: 12%;
 }
-.curator {
+.exhibit_info_curator {
   display: none;
 }
-.mpara {
+.exhibit_info_mpara {
   display: none;
 }
-.edgar {
+.exhibit_info_edgar {
   display: none;
 }
-.pics {
+.exhibit_info_pics {
   display: grid;
   grid-gap: 4%;
   width: 720px;
@@ -48,20 +49,20 @@ button {
     "img1 img1 img1"
     "img2 img3 img4";
 }
-.im1 {
+.exhibit_info_im1 {
   grid-area: img1;
   margin-bottom: 0%;
 }
-.im2 {
+.exhibit_info_im2 {
   grid-area: img2;
 }
-.im3 {
+.exhibit_info_im3 {
   grid-area: img3;
 }
-.im4 {
+.exhibit_info_im4 {
   grid-area: img4;
 }
-.vector {
+.exhibit_info_vector {
   width: 15%;
   margin-left: 90%;
   border-radius: 50%;
@@ -72,7 +73,7 @@ button {
   * {
     background: #f9f9f9;
   }
-  .container {
+  .exhibit_info_container {
     margin-top: 20em;
     width: 375px;
     display: grid;
@@ -83,7 +84,7 @@ button {
     margin-left: 0%;
     justify-items: center;
   }
-  .edgar {
+  .exhibit_info_edgar {
     display: block;
     margin-top: -312%;
     margin-bottom: 300%;
@@ -91,7 +92,7 @@ button {
     font-size: 30px;
     font-family: hind;
   }
-  .pics {
+  .exhibit_info_pics {
     display: grid;
     margin-top: 0%;
     width: 95%;
@@ -104,33 +105,33 @@ button {
       ". cur cur"
       "img2 img3 img4";
   }
-  .im1 {
+  .exhibit_info_im1 {
     grid-area: img1;
     height: 60%;
     width: 100%;
     margin-left: -2%;
     justify-self: center;
   }
-  .im2 {
+  .exhibit_info_im2 {
     grid-area: img2;
     height: 90px;
     justify-self: center;
     border: 2px solid black;
   }
-  .im3 {
+  .exhibit_info_im3 {
     grid-area: img3;
     height: 90px;
     justify-self: center;
     border: 2px solid black;
   }
-  .im4 {
+  .exhibit_info_im4 {
     grid-area: img4;
     height: 90px;
     justify-self: center;
     border: 2px solid black;
   }
 
-  .info {
+  .exhibit_info_info {
     display: grid;
     grid-area: info;
     margin-top: 10%;
@@ -142,12 +143,12 @@ button {
       "vid"
       "reg";
   }
-  .vid {
+  .exhibit_info_vid {
     grid-area: vid;
     width: 100%;
     justify-self: center;
   }
-  .register {
+  .exhibit_info_register {
     grid-area: reg;
     width: 85%;
     justify-self: center;
@@ -156,10 +157,10 @@ button {
     font-size: 13px;
     padding-top: 1%;
   }
-  .deskpara {
+  .exhibit_info_deskpara {
     display: none;
   }
-  .curator {
+  .exhibit_info_curator {
     display: inline;
     grid-area: cur;
     background: #eaeaea;
@@ -172,11 +173,11 @@ button {
     margin-top: 0%;
     margin-bottom: 10%;
   }
-  .mpara {
+  .exhibit_info_mpara {
     display: inline-block;
     grid-area: mp;
   }
-  .vector {
+  .exhibit_info_vector {
     display: none;
   }
 }

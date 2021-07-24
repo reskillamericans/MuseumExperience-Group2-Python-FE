@@ -8,40 +8,40 @@ import Sixthimage from "./img/image6.png";
 function ExhibitPage() {
   return (
     <>
-      <div id="row1" className="rows">
-        <div className="image-name">
-          <img className="row1-pics" src={Firstimage} />
+      <div id="exhibit_page_row1" className="exhibit_page_rows">
+        <div className="exhibit_page_image-name">
+          <img className="exhibit_page_row1-pics" src={Firstimage} />
 
-          <text>Van Gogh Exhibit</text>
+          <p>Van Gogh Exhibit</p>
         </div>
 
-        <div className="image-name">
+        <div className="exhibit_page_image-name">
           <img src={Secondimage} />
 
-          <text>DaVinci Exhibit</text>
+          <p>DaVinci Exhibit</p>
         </div>
 
-        <div className="image-name">
-          <img id="image3" src={Secondimage} />
+        <div className="exhibit_page_image-name">
+          <img id="exhibit_page_image3" src={Secondimage} />
 
-          <text>Degas Exhibit</text>
+          <p>Degas Exhibit</p>
         </div>
       </div>
 
-      <div id="row2" className="rows">
-        <div className="image-name">
+      <div id="exhibit_page_row2" className="exhibit_page_rows">
+        <div className="exhibit_page_image-name">
           <img src={Fourthimage} />
-          <text>Egyptian Art Exhibit</text>
+          <p>Egyptian Art Exhibit</p>
         </div>
 
-        <div className="image-name">
+        <div className="exhibit_page_image-name">
           <img src={Fifthimage} />
-          <text>Grecian Sculpture</text>
+          <p>Grecian Sculpture</p>
         </div>
 
-        <div className="image-name">
+        <div className="exhibit_page_image-name">
           <img src={Sixthimage} />
-          <text>Bronze Age</text>
+          <p>Bronze Age</p>
         </div>
       </div>
     </>
