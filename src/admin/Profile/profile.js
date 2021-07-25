@@ -14,6 +14,7 @@ import arrowleft from "./arrowleft.png";
 
 function Profile() {
   return (
+    <div className="Profile_body">
     <div id="Profile_grid">
       <div className="Profile_header">
         <div className="Profile_searchform">
@@ -65,6 +66,7 @@ function Profile() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
