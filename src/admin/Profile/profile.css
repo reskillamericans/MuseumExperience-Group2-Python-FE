@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 /*grid stuff*/
-#grid {
+#Profile_grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto;
@@ -13,25 +13,25 @@ body {
     "aside main main"
     "aside main main";
 }
-.header {
+.Profile_header {
   grid-area: head;
   background: #c80764;
   position: relative;
   width: auto;
   height: 68px;
 }
-.logo {
+.Profile_logo {
   grid-area: logo;
 }
-.aside {
+.Profile_aside {
   grid-area: aside;
   background: #c4c4c4;
 }
-.mainbody {
+.Profile_mainbody {
   grid-area: main;
 }
 /*header styling*/
-#profile {
+#Profile_profile {
   position: absolute;
   height: 48px;
   width: 48px;
@@ -40,28 +40,28 @@ body {
   top: 16.22%;
   bottom: 18.92%;
 }
-#mail,
+#Profile_mail,
 #exit,
-#bell {
+#Profile_bell {
   position: relative;
   width: 1.5em;
   height: 1.5em;
 }
-#mail {
+#Profile_mail {
   position: absolute;
   left: 80%;
   right: 8.15%;
   top: 16.22%;
   bottom: 18.92%;
 }
-#bell {
+#Profile_bell {
   position: absolute;
   left: 85%;
   right: 3.98%;
   top: 16.22%;
   bottom: 18.92%;
 }
-#exit {
+#Profile_exit {
   position: absolute;
   left: 90%;
   right: 0%;
@@ -80,7 +80,7 @@ body {
   height: 37px;
   border: none;
 }
-.button {
+.Profile_button {
   position: absolute;
   background: none;
   border: none;
@@ -89,7 +89,7 @@ body {
 }
 
 /*aside styling*/
-#button1 {
+#Profile_button1 {
   background: #c80764;
   color: #ffffff;
   border-radius: 0.25em;
@@ -104,7 +104,7 @@ body {
   text-align: left;
   margin-bottom: 34em;
 }
-.stats {
+.Profile_stats {
   display: inline-block;
   font-family: "Red Hat Display", sans-serif;
   font-style: normal;
@@ -114,7 +114,7 @@ body {
   color: #ffffff;
   padding-left: 1em;
 }
-.number {
+.Profile_number {
   display: inline-block;
   font-family: "Red Hat Display", sans-serif;
   font-style: normal;
@@ -124,7 +124,7 @@ body {
 }
 
 /*main container styling*/
-#p1 {
+#Profile_p1 {
   position: relative;
   left: 2em;
   font-family: "Red Hat Display", sans-serif;
@@ -134,7 +134,7 @@ body {
   line-height: 37px;
   color: #8a8a8a;
 }
-.container1 {
+.Profile_container1 {
   position: relative;
   display: flex;
   align-items: center;
@@ -146,23 +146,23 @@ body {
   margin-bottom: 3em;
   left: 156px;
 }
-#face {
+#Profile_face {
   width: 171px;
   height: 161px;
 }
-.info > p:first-child {
+.Profile_info > p:first-child {
   font-style: normal;
   font-weight: bold;
   text-align: center;
   font-size: 21px;
 }
-.info > p:nth-child(2) {
+.Profile_info > p:nth-child(2) {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
   text-align: center;
 }
-.info > p:nth-child(3) {
+.Profile_info > p:nth-child(3) {
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -191,7 +191,7 @@ body {
   text-align: center;
   letter-spacing: -0.24px;
 }
-#p2 {
+#Profile_p2 {
   color: #8a8a8a;
   font-family: SF Pro Display;
   font-style: normal;
@@ -200,7 +200,7 @@ body {
   line-height: 25px;
   text-align: center;
 }
-.container2 {
+.Profile_container2 {
   position: relative;
   display: flex;
   align-items: center;
@@ -209,13 +209,13 @@ body {
   margin-bottom: 3em;
   left: 100px;
 }
-#flowers,
-#paint,
-#impression {
+#Profile_flowers,
+#Profile_paint,
+#Profile_impression {
   width: 271px;
   height: 272px;
 }
-.b2 {
+.Profile_b2 {
   background: none;
   border: none;
 }
