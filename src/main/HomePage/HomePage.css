@@ -1,9 +1,9 @@
-.HomePage {
+.home_HomePage {
   height: 100%;
   width: 100;
 }
 
-.hero {
+.home_hero {
   display: flex;
   background-image: url(./images/image\ 1.png);
   background-size: contain;
@@ -12,12 +12,12 @@
   position: sticky;
 }
 
-#magnifier {
+#home_magnifier {
   margin-left: 85%;
   margin-top: 2px;
 }
 
-#search {
+#home_search {
   display: flex;
   position: relative;
   width: 400px;
@@ -37,11 +37,11 @@
   padding-bottom: 5px;
 }
 
-h1 {
+.home_h1 {
   text-align: center;
 }
 
-.welcomebody {
+.home_welcomebody {
   position: relative;
   text-align: center;
   margin-left: 85px;
@@ -56,13 +56,13 @@ h1 {
   color: #ffffff;
 }
 
-.explore {
+.home_explore {
   font-size: 17px;
   margin-top: -25px;
   line-height: 37px;
 }
 
-.continue {
+.home_continue {
   background: #e8840d;
   border-radius: 50px;
   text-align: center;
@@ -79,22 +79,22 @@ h1 {
   margin-top: 22px;
 }
 
-.container {
+.home_container {
   width: 1100px;
 }
 
-.exhibit-listing {
+.home_exhibit-listing {
   display: flex;
   justify-content: space-around;
   padding: 90px;
   margin-top: -70px;
 }
 
-.container2 {
+.home_container2 {
   width: 1100px;
 }
 
-.exhibit-buttons {
+.home_exhibit-buttons {
   display: flex;
   justify-content: space-around;
   margin-top: -200px;
@@ -103,10 +103,10 @@ h1 {
   position: relative;
 }
 
-.b1,
-.b2,
-.b3,
-.b4 {
+.home_b1,
+.home_b2,
+.home_b3,
+.home_b4 {
   background-color: #7e7a8f;
   border-radius: 50px;
   border-style: none;
@@ -117,21 +117,21 @@ h1 {
   font-weight: bold;
 }
 
-.b1,
-.b2 {
+.home_b1,
+.home_b2 {
   margin-left: 12px;
 }
 
-.b1 {
+.home_b1 {
   margin-right: -5px;
   margin-left: 32px;
 }
 
-.b2 {
+.home_b2 {
   margin-right: 5 px;
 }
 
-.sections {
+.home_sections {
   margin-top: 150px;
   margin-left: 100px;
   font-family: Hind;
@@ -142,13 +142,13 @@ h1 {
   color: #180126;
 }
 
-#c1 {
+#home_c1 {
   margin-bottom: 25px;
 }
 
-#c2 {
+#home_c2 {
   margin-bottom: 25px;
 }
-#c3 {
+#home_c3 {
   margin-bottom: 25px;
 }
