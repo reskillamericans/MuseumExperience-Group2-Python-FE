@@ -1,7 +1,7 @@
-body {
+.Addartwork_body {
   font-family: "Red Hat Display", sans-serif;
 }
-.grid {
+.Addartwork_grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto;
@@ -11,7 +11,7 @@ body {
     "aside main main"
     "aside main main";
 }
-.header {
+.Addartwork_header {
   grid-area: head;
   background: #c80764;
   position: relative;
@@ -19,7 +19,7 @@ body {
   height: 68px;
 }
 /*header styling*/
-#profile {
+#Addartwork_profile {
   position: absolute;
   height: 48px;
   width: 48px;
@@ -28,35 +28,35 @@ body {
   top: 16.22%;
   bottom: 18.92%;
 }
-#mail,
-#exit,
-#bell {
+#Addartwork_mail,
+#Addartwork_exit,
+#Addartwork_bell {
   position: relative;
   width: 1.5em;
   height: 1.5em;
 }
-#mail {
+#Addartwork_mail {
   position: absolute;
   left: 80%;
   right: 8.15%;
   top: 16.22%;
   bottom: 18.92%;
 }
-#bell {
+#Addartwork_bell {
   position: absolute;
   left: 85%;
   right: 3.98%;
   top: 16.22%;
   bottom: 18.92%;
 }
-#exit {
+#Addartwork_exit {
   position: absolute;
   left: 90%;
   right: 0%;
   top: 16.22%;
   bottom: 18.92%;
 }
-.input {
+.Addartwork_input {
   position: absolute;
   left: 5%;
   right: 61.61%;
@@ -68,18 +68,18 @@ body {
   height: 37px;
   border: none;
 }
-.button {
+.Addartwork_button {
   position: absolute;
   background: none;
   border: none;
   top: 25%;
   left: 31em;
 }
-.logo {
+.Addartwork_logo {
   grid-area: logo;
 }
 /******/
-.aside {
+.Addartwork_aside {
   grid-area: aside;
   background: #ffffff;
   border: 1px solid #8a8a8a;
@@ -87,7 +87,7 @@ body {
   padding-bottom: 2.5em;
 }
 /*aside styling*/
-.nav {
+.Addartwork_nav {
   font-style: normal;
   font-weight: bold;
   color: #000000;
@@ -98,8 +98,8 @@ body {
   font-size: 28px;
   line-height: 37px;
 }
-.aside-b1,
-.aside-b3 {
+.Addartwork_aside-b1,
+.Addartwork_aside-b3 {
   background-color: #ffffff;
   width: 100%;
   border: 1px solid #8a8a8a;
@@ -110,7 +110,7 @@ body {
   padding: 1em;
   text-align: initial;
 }
-.aside-b2 {
+.Addartwork_aside-b2 {
   width: 100%;
   background: #c80764;
   border: 1px solid #c80764;
@@ -123,7 +123,7 @@ body {
   color: #ffffff;
   text-align: initial;
 }
-.aside-b2::before {
+.Addartwork_aside-b2::before {
   position: absolute;
   content: "";
   width: 53px;
@@ -134,10 +134,10 @@ body {
   top: 29.5%;
   transform: rotate(45deg);
 }
-.aside-b3 {
+.Addartwork_aside-b3 {
   margin-bottom: 23em;
 }
-.stats {
+.Addartwork_stats {
   display: inline-block;
   font-style: normal;
   font-weight: bold;
@@ -146,7 +146,7 @@ body {
   color: #8a8a8a;
   padding-left: 1em;
 }
-.number {
+.Addartwork_number {
   display: inline-block;
   font-style: normal;
   font-weight: bold;
@@ -154,11 +154,11 @@ body {
   color: #c80764;
 }
 /****/
-.main {
+.Addartwork_main {
   grid-area: main;
 }
 /*main styling*/
-#mainp {
+#Addartwork_mainp {
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
@@ -169,7 +169,7 @@ body {
 form {
   display: inline-block;
 }
-.mainlabel {
+.Addartwork_mainlabel {
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
@@ -177,7 +177,7 @@ form {
   color: #8a8a8a;
   margin-left: 61px;
 }
-.maininput-3 {
+.Addartwork_maininput-3 {
   resize: none;
   width: 830px;
   height: 286px;
@@ -192,7 +192,7 @@ form {
   font-weight: 500;
   color: #8a8a8a;
 }
-.empty {
+.Addartwork_empty {
   width: 830px;
   height: 48px;
   background: #f9f9f9;
@@ -203,7 +203,7 @@ form {
   left: 24.48em;
   top: 23.16em;
 }
-.emptyp {
+.Addartwork_emptyp {
   font-weight: 500;
   font-size: 21px;
   line-height: 28px;
@@ -211,7 +211,7 @@ form {
   text-align: right;
   padding-right: 0.8em;
 }
-.empty1 {
+.Addartwork_empty1 {
   width: 830px;
   height: 61px;
   background: #f9f9f9;
@@ -223,9 +223,9 @@ form {
   top: 13.3em;
   left: 24.48em;
 }
-.maininput-1,
-.maininput-2,
-.maininput-4 {
+.Addartwork_maininput-1,
+.Addartwork_maininput-2,
+.Addartwork_maininput-4 {
   width: 830px;
   height: 50px;
   margin-left: 207.07px;
@@ -234,14 +234,14 @@ form {
   box-sizing: border-box;
   border-radius: 6px;
 }
-.maininput-1 {
+.Addartwork_maininput-1 {
   margin-left: 105px;
 }
-.maininput-4 {
+.Addartwork_maininput-4 {
   margin-bottom: 41px;
 }
 
-.buttoncontainer {
+.Addartwork_buttoncontainer {
   display: flex;
   flex-direction: row;
   width: 75%;
@@ -249,9 +249,9 @@ form {
   margin-bottom: 24px;
   margin-left: 140.07px;
 }
-.button-1,
-.button-2,
-.button-3 {
+.Addartwork_button-1,
+.Addartwork_button-2,
+.Addartwork_button-3 {
   border: 1px solid #8a8a8a;
   border-radius: 4px;
   background-color: #ffffff;
@@ -265,7 +265,7 @@ form {
   margin-top: 4em;
 }
 
-.plusart {
+.Addartwork_plusart {
   border: 1px solid #c80764;
   box-sizing: border-box;
   border-radius: 4px;
@@ -282,7 +282,7 @@ form {
   letter-spacing: -0.2px;
   margin-bottom: 50px;
 }
-#save {
+#Addartwork_save {
   margin-left: 240px;
   display: inline-block;
   height: 40px;
@@ -298,7 +298,7 @@ form {
   letter-spacing: -0.2px;
   font-weight: bold;
 }
-#cancel {
+#Addartwork_cancel {
   display: inline;
   height: 40px;
   width: 99px;
@@ -313,7 +313,7 @@ form {
   letter-spacing: -0.2px;
   color: #8a8a8a;
 }
-#save,
-#cancel {
+#Addartwork_save,
+#Addartwork_cancel {
   margin-top: 3.5em;
 }

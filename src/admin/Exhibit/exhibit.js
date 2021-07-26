@@ -20,9 +20,9 @@ import mobexhibits from "./mobExhibits.svg";
 
 export default function Exhibit() {
   return (
-    <div className="container">
-      <div className="header">
-        <div className="logo">
+    <div className="Exhibit_container">
+      <div className="Exhibit_header">
+        <div className="Exhibit_logo">
           <span>
             <img src={design} alt="Logo" className="muspic" />{" "}
             <h1>
@@ -30,20 +30,20 @@ export default function Exhibit() {
             </h1>
           </span>
         </div>
-        <div className="bar">
+        <div className="Exhibit_bar">
           <input type="search" id="site-search" name="q"></input>
           <button className="serbut">
             <img src={searchsym} alt="search symbol" className="searchsym" />
           </button>
         </div>
         <div>
-          <img src={mail} alt="mail" className="mail" />
+          <img src={mail} alt="mail" className="Exhibit_mail" />
         </div>
         <div>
-          <img src={bell} alt="bell" className="bell" />
+          <img src={bell} alt="bell" className="Exhibit_bell" />
         </div>
         <div>
-          <img src={logout} alt="logout" className="logout" />
+          <img src={logout} alt="logout" className="Exhibit_logout" />
         </div>
         <div>
           <img src={proimage} alt="proimage" className="proimage" />
@@ -58,23 +58,23 @@ export default function Exhibit() {
           <img src={mobexhibits} alt="exhibits" />
         </div>
         <div>
-          <img src={mail} alt="mail" className="mail" />
+          <img src={mail} alt="mail" className="Exhibit_mail" />
         </div>
         <div>
-          <img src={bell} alt="bell" className="bell" />
+          <img src={bell} alt="bell" className="Exhibit_bell" />
         </div>
         <div>
           <img src={proimage} alt="proimage" className="proimage" />
         </div>
       </div>
 
-      <div className="nav">
+      <div className="Exhibit_nav">
         <button className="navimen">
           <a href="">
-            <h2 className="menu">NAVIGATION MENU</h2>
+            <h2 className="Exhibit_menu">NAVIGATION MENU</h2>
           </a>
         </button>
-        <button className="dash">
+        <button className="Exhibit_dash">
           <a href="">
             <h3>Dashboard</h3>
           </a>
@@ -85,33 +85,33 @@ export default function Exhibit() {
             <img src={poly} alt="triangle" className="poly" />
           </a>
         </button>
-        <button className="dash">
+        <button className="Exhibit_dash">
           <a href="">
             <h3>Admin Roles</h3>
           </a>
         </button>
 
         <p className="total exhibitP">
-          Total No. Exhibits <span className="pink">46</span>
+          Total No. Exhibits <span className="Exhibit_pink">46</span>
         </p>
         <p className="exhibitP">
-          Total No. Questions <span className="pink">13</span>
+          Total No. Questions <span className="Exhibit_pink">13</span>
         </p>
         <p className="exhibitP">
           {" "}
-          Answered Questions <span className="pink">10</span>
+          Answered Questions <span className="Exhibit_pink">10</span>
         </p>
         <p className="unans exhibitP">
-          Unanswered Questions <span className="pink">3</span>
+          Unanswered Questions <span className="Exhibit_pink">3</span>
         </p>
       </div>
 
-      <div className="cards">
+      <div className="Exhibit_cards">
         <div class="row">
           <div class="column">
             <button class="createcard">
               <div>
-                <img src={circle} alt="circle" className="circle" />
+                <img src={circle} alt="circle" className="Exhibit_circle" />
               </div>
               <div>
                 <img
@@ -127,7 +127,7 @@ export default function Exhibit() {
                   className="horizplus"
                 />
               </div>
-              <h3 className="create">Create Exhibit</h3>
+              <h3 className="Exhibit_create">Create Exhibit</h3>
             </button>
           </div>
 
@@ -138,7 +138,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -175,7 +175,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -211,7 +211,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -223,7 +223,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -247,7 +247,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -259,7 +259,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -271,7 +271,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -283,7 +283,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
@@ -295,7 +295,7 @@ export default function Exhibit() {
                 <img
                   src={component1}
                   alt="edit content"
-                  className="component"
+                  className="Exhibit_component"
                 />
               </div>
             </div>
