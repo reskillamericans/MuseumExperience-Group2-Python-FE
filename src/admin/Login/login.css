@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
 
-.container {
+.adminlogin-container {
   background-color: #c80764;
   display: grid;
   margin-top: 200px;
@@ -10,7 +10,7 @@
   max-width: 100%;
   margin-bottom: 100px;
 }
-.adminL {
+.adminlogin-adminL {
   display: flexbox;
   flex-direction: column;
   background-color: white;
@@ -21,10 +21,10 @@
   font-family: Red Hat Display;
   position: relative;
 }
-form {
+.adminlogin-form {
   margin-top: -3%;
 }
-.login {
+.adminlogin-login {
   background-color: #c80764;
   width: 343px;
   height: 40px;
@@ -34,15 +34,15 @@ form {
   border: none;
   color: white;
 }
-.adminlog {
+.adminlogin-adminlog {
   margin-top: 8em;
   font-size: 16px;
   margin-bottom: 3em;
 }
-.musad {
+.adminlogin-musad {
   display: none;
 }
-input {
+.adminlogin-input1 .adminlogin-input2 {
   background-color: #eeeeee;
   width: 343px;
   height: 40px;
@@ -51,20 +51,20 @@ input {
   border-radius: 5px;
   border: none;
 }
-.email {
+.adminlogin-email {
   margin-left: -37%;
   font-size: 13px;
   font-weight: 700;
 }
-.pass {
+.adminlogin-pass {
   margin-left: -33%;
   font-size: 13px;
   font-weight: 700;
 }
-.dont {
+.adminlogin-dont {
   padding-left: 23em;
 }
-.account {
+.adminlogin-account {
   margin-top: -3%;
 }
 a:link {
@@ -82,14 +82,14 @@ a:active {
   color: #fffafa;
 }
 
-.getst {
+.adminlogin-getst {
   color: black;
 }
 
-img {
+.adminlogin-logo{
   margin-bottom: -13%;
 }
-.create {
+.adminlogin-create {
   display: none;
 }
 ::placeholder {
@@ -97,24 +97,24 @@ img {
 }
 
 @media (max-width: 480px) {
-  .adminlog {
+  .adminlogin-adminlog {
     display: none;
   }
-  .musad {
+  .adminlogin-musad {
     display: inline-block;
     margin-top: -4%;
     font-size: 30px;
   }
-  .gold {
+  .adminlogin-gold {
     color: #a89804;
   }
-  img {
+  .adminlogin-logo {
     margin-bottom: 7%;
     margin-top: -0%;
     margin-left: 46%;
     width: 10%;
   }
-  .container {
+  .adminlogin-container {
     background-color: white;
     margin-top: -55%;
     width: fit-content;
@@ -124,10 +124,10 @@ img {
     max-width: 100%;
     overflow-x: hidden;
   }
-  label {
+  .adminlogin-pass {
     display: none;
   }
-  .account {
+  .adminlogin-account {
     display: none;
   }
   a:link {
@@ -143,12 +143,12 @@ img {
     color: #1482db;
   }
 
-  .create {
+  .adminlogin-create {
     display: inline-block;
     font-size: 13px;
     color: rgb(175, 174, 174);
   }
-  .adminL {
+  .adminlogin-adminL {
     display: flex;
     flex-direction: column;
     margin-top: 45%;
@@ -157,7 +157,7 @@ img {
     margin-left: 0%;
     height: fit-content;
   }
-  input {
+  .adminlogin-input1 .adminlogin-input2 {
     background-color: #ffffff;
     width: 18em;
     height: 3em;
@@ -174,7 +174,7 @@ img {
     padding-left: 5%;
   }
 
-  .login {
+  .adminlogin-login {
     background-color: #c80764;
     width: 21em;
     height: 3em;
