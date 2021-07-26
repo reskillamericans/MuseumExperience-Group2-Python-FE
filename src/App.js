@@ -34,10 +34,10 @@ function App() {
 
           {/* admin page switch route */}
 
-          <Route exact path="/admin-addart" component={Addartwork} />
+           <Route exact path="/admin-addart" component={Addartwork} />
           <Route exact path="/admin-create" component={CreateExhibit} />
           <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/admin-exhibit" component={Exhibit} />
+          <Route exact path="/admin-exhibit" component={Exhibit} /> 
           <Route exact path="/admin-login" component={AdminLogin} />
           <Route exact path="/admin-profile" component={Profile} />
           <Route exact path="/admin-role" component={Roles} />
