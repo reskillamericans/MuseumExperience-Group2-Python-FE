@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 }
 
-.header {
+.signup-header {
   font-size: 37px;
   width: 100%;
   background-color: #8a8a8a;
@@ -11,27 +11,27 @@ html {
   line-height: 48.95px;
   margin-bottom: 61px;
 }
-span {
+.signup-span {
   color: rgb(177, 175, 72);
 }
-.purple_background {
+.signup-purple_background {
   background-color: #c80764;
   height: 65rem;
   margin-bottom: 6rem;
 }
 
-h1 {
+.signup-h1 {
   font-size: 28px;
   margin-top: 34px;
   margin-bottom: 39px;
 }
-.container1 {
+.signup-container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Sign_up_box {
+.signup-Sign_up_box {
   border: 1px solid none;
   display: flex;
   flex-direction: column;
@@ -44,12 +44,12 @@ h1 {
   /*min-width: 45rem;*/
   margin-top: 60px;
 }
-form {
+.signup-form {
   width: 45%;
   font-weight: bold;
 }
 
-input {
+.signup-input {
   background-color: #e5e5e5;
   width: 100%;
   height: 4rem;
@@ -57,7 +57,7 @@ input {
   border: 2px solid #eeeeee;
   border-radius: 4px;
 }
-button {
+.signup-button {
   color: #ffffff;
   background-color: #c80764;
   border: none;
@@ -65,11 +65,11 @@ button {
   height: 40px;
   border-radius: 4px;
 }
-text {
+.signup-text {
   margin-top: 27px;
   font-size: 13px;
 }
 
-.span_2 {
+.signup-span_2 {
   color: white;
 }
