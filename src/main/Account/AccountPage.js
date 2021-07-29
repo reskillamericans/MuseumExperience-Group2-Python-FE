@@ -18,9 +18,14 @@ function AccountPage() {
         <p className="account-searchheader">MY ACCOUNT</p>
         <div className="account-searchform">
           <form action="/action_page.php" className="account-search">
-            <input type="text" className="account-input" placeholder="Search.." name="search" />
+            <input
+              type="text"
+              className="account-input"
+              placeholder="Search.."
+              name="search"
+            />
             <button type="submit">
-              <img src={search} />
+              <img src={search} alt="search" />
             </button>
           </form>
         </div>
@@ -53,22 +58,23 @@ function AccountPage() {
         <div className="account-questions">
           <p id="account-history">Question History</p>
           <button class="account-accordion">
-            <img src={check} className="account-check" /> Suspendisse luctus ornare
-            iacullis <img src={plus} className="plus" />
+            <img src={check} className="account-check" alt="checkbox" />{" "}
+            Suspendisse luctus ornare iacullis{" "}
+            <img src={plus} className="plus" alt="plus icon" />
           </button>
           <div class="account-panel"></div>
 
           <button class="account-accordion">
-            <img src={check} className="account-check" />
+            <img src={check} className="account-check" alt="checkbox" />
             Donec ut feugiat leo. Nullam at mauris eros
-            <img src={plus} className="plus" />
+            <img src={plus} className="plus" alt="plus icon" />
           </button>
           <div class="account-panel"></div>
 
           <button class="account-accordion">
-            <img src={check} className="account-check" /> Fusce ut consequat eros, eget
-            vehicula ante
-            <img src={plus} className="account-plus" />
+            <img src={check} className="account-check" alt="checkbox" /> Fusce
+            ut consequat eros, eget vehicula ante
+            <img src={plus} className="account-plus" alt="plus icon" />
           </button>
           <div class="account-panel"></div>
         </div>
@@ -91,7 +97,9 @@ function AccountPage() {
           </p>
           <div className="account-emailcontainer">
             <form action="/action_page.php">
-              <label for="emailaddress" className="account-label">Email Address</label>
+              <label for="emailaddress" className="account-label">
+                Email Address
+              </label>
               <input type="email" name="email" id="email" />
               <button type="submit">Sign Up</button>
             </form>

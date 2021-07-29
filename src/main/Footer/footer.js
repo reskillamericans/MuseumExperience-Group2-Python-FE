@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function footer1() {
   return (
@@ -33,10 +34,10 @@ function footer1() {
         </div>
 
         <div className="footCol-3">
-          <a href="">SUPPORT</a> <br />
-          <a href="">MEMBERSHIP</a> <br />
-          <a href="">HOST AN EVENT</a> <br />
-          <a href="">CORPORATE SUPPORT</a>
+          <Link className="a">SUPPORT</Link> <br />
+          <Link className="a">MEMBERSHIP</Link> <br />
+          <Link className="a">HOST AN EVENT</Link> <br />
+          <Link className="a">CORPORATE SUPPORT</Link>
         </div>
       </body>
     </div>

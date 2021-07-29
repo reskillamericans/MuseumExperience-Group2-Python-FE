@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
 
-* {
-  font-family: red hat display;
-}
 .Exhibit_header {
   display: flex;
   flex-direction: row;

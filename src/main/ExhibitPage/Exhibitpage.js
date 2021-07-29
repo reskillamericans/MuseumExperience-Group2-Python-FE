@@ -10,19 +10,23 @@ function ExhibitPage() {
     <>
       <div id="exhibit_page_row1" className="exhibit_page_rows">
         <div className="exhibit_page_image-name">
-          <img className="exhibit_page_row1-pics" src={Firstimage} />
+          <img
+            className="exhibit_page_row1-pics"
+            src={Firstimage}
+            alt="first"
+          />
 
           <p>Van Gogh Exhibit</p>
         </div>
 
         <div className="exhibit_page_image-name">
-          <img src={Secondimage} />
+          <img src={Secondimage} alt="second" />
 
           <p>DaVinci Exhibit</p>
         </div>
 
         <div className="exhibit_page_image-name">
-          <img id="exhibit_page_image3" src={Secondimage} />
+          <img id="exhibit_page_image3" src={Secondimage} alt="second" />
 
           <p>Degas Exhibit</p>
         </div>
@@ -30,17 +34,17 @@ function ExhibitPage() {
 
       <div id="exhibit_page_row2" className="exhibit_page_rows">
         <div className="exhibit_page_image-name">
-          <img src={Fourthimage} />
+          <img src={Fourthimage} alt="fourth" />
           <p>Egyptian Art Exhibit</p>
         </div>
 
         <div className="exhibit_page_image-name">
-          <img src={Fifthimage} />
+          <img src={Fifthimage} alt="fifth" />
           <p>Grecian Sculpture</p>
         </div>
 
         <div className="exhibit_page_image-name">
-          <img src={Sixthimage} />
+          <img src={Sixthimage} alt="sixth" />
           <p>Bronze Age</p>
         </div>
       </div>

@@ -43,7 +43,7 @@ function Dashboard() {
         className="dashboardVisit dashboardBoxstyle"
         target="blank"
         rel="noreferrer"
-        href="#"
+        href="/"
       >
         Visit Musuem Website
       </a>

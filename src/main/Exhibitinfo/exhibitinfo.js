@@ -55,14 +55,14 @@ export default function Exhibitinfo() {
       </div>
       <h1 className="exhibit_info_edgar">EDGAR DEGAS</h1>
       <div className="exhibit_info_pics">
-        <img src={img1} className="exhibit_info_im1" alt="image of a woman" />
+        <img src={img1} className="exhibit_info_im1" alt="woman" />
         <button className="exhibit_info_curator">
           Ask the Curator <img src={mvec} alt="comment" />
         </button>
 
-        <img src={img2} className="exhibit_info_im2" alt="image of family" />
-        <img src={img3} className="exhibit_info_im3" alt="image of a girl" />
-        <img src={img4} className="exhibit_info_im4" alt="image of flowers" />
+        <img src={img2} className="exhibit_info_im2" alt="family" />
+        <img src={img3} className="exhibit_info_im3" alt="girl" />
+        <img src={img4} className="exhibit_info_im4" alt="flowers" />
       </div>
     </div>
   );
