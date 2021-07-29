@@ -7,7 +7,7 @@ import ExhibitPage from "./main/ExhibitPage/Exhibitpage";
 import Exhibitinfo from "./main/Exhibitinfo/exhibitinfo";
 import AccountPage from "./main/Account/AccountPage";
 import AboutUsMain from "./main/AboutUsMain/AboutUsMain";
-import CreateExhibit from "./admin/CreateExhibit/Createexhibit";
+import CreateExhibit from "./admin/CreateExhibit/CreateExhibit";
 import Addartwork from "./admin/AddArtwork/addartwork";
 import Dashboard from "./admin/Dashboard/Dashboard";
 import Exhibit from "./admin/Exhibit/exhibit";
