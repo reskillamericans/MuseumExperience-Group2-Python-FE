@@ -4,7 +4,7 @@ import Image7 from "./Image7 84.png";
 import Search from "./search.png";
 import Mail from "./mail.png";
 import Bell from "./bell.png";
-import LogOut from "./Logout.png";
+import LogOut from "./logout.png";
 import ProfileImage from "./Ellipse 7.png";
 import ProfileImage1 from "./Ellipse 5.png";
 import Image8 from "./Image8 83.png";
