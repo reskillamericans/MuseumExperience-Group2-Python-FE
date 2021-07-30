@@ -1,10 +1,10 @@
 import React from "react";
 import AdminProfile from "./AdminProfile.css"
 import Image7 from "./Image7 84.png";
-import Search from "./Search.png";
-import Mail from "./Mail.png";
-import Bell from "./Bell.png";
-import LogOut from "./LogOut.png";
+import Search from "./search.png";
+import Mail from "./mail.png";
+import Bell from "./bell.png";
+import LogOut from "./Logout.png";
 import ProfileImage from "./Ellipse 7.png";
 import ProfileImage1 from "./Ellipse 5.png";
 import Image8 from "./Image8 83.png";
