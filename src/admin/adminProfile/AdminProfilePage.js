@@ -1,5 +1,5 @@
 import React from "react";
-import AdminProfile from "./AdminProfile.css"
+import "./AdminProfile.css"
 import Image7 from "./Image7 84.png";
 import Search from "./search.png";
 import Mail from "./mail.png";
