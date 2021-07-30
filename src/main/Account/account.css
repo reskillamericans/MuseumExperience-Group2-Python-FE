@@ -273,7 +273,7 @@ div.account-contact > p:first-child {
   color: #180126;
 }
 /*contact section styling*/
-#email {
+#account_email {
   position: relative;
   width: 343px;
   height: 40px;

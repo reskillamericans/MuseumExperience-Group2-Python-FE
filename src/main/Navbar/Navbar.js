@@ -5,7 +5,7 @@ import ".Assets/Logo/Name.svg";
 function Navbar() {
   return (
     <>
-      <div className="nav">
+      <div className="navbar_nav">
         {/* Nav toggle input */}
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
