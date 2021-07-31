@@ -100,7 +100,7 @@ function AccountPage() {
               <label for="emailaddress" className="account-label">
                 Email Address
               </label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="account_email" />
               <button type="submit">Sign Up</button>
             </form>
           </div>

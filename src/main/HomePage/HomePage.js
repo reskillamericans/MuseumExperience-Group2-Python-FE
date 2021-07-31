@@ -7,6 +7,8 @@ import image34 from "./images/image 34.png";
 import image50 from "./images/image 50.png";
 import vector from "./images/Vector.png";
 import "./HomePage.css";
+import Navbar from "../Navbar/Navbar";
+import Footer1 from "../Footer/footer";
 
 function HomePage() {
   return (
@@ -17,7 +19,7 @@ function HomePage() {
         @import
         url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Open+Sans&display=swap');
       </style>
-
+      <Navbar />
       <div className="home_hero">
         <div id="home_bar">
           <div id="home_search">
@@ -61,6 +63,7 @@ function HomePage() {
         <h2>Children's Events</h2>
         <img src={image34} id="home_c3" alt="c1" width="845px" />
       </div>
+      <Footer1 />
     </div>
   );
 }

@@ -1,71 +1,75 @@
-.nav {
-  height: 50px;
+.navbar_nav {
+  height: 70px;
   width: 100%;
-  background-color: #fff;
+  background-color: #F9F9F9;;
   position: relative;
+  font-family: 'Hind';
 }
 
-.nav > .nav-header {
+.navbar_nav > .nav-header {
   display: inline;
   padding: 10px 20px;
 }
 
-.nav > .nav-header > .nav-title {
+.navbar_nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
   color: #000;
   padding: 5px;
+  margin-left: 50px;
 }
 
-.nav > .nav-btn {
+.navbar_nav > .nav-btn {
   display: none;
 }
 
-.nav > #nav-check {
+.navbar_nav > #nav-check {
   display: none;
 }
 
-.nav > .nav-links {
+.navbar_nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 25px;
+  margin-right: 50px;
 }
 
-.nav > .nav-links > a {
+.navbar_nav > .nav-links > a {
   display: inline-block;
-  padding: 13px 20px;
+  margin: 13px 35px;
   text-decoration: none;
   color: #000;
 }
 
-.nav > .nav-links > a:hover {
-  border-bottom: 2px solid red;
+.navbar_nav > .nav-links > a:hover {
+  border-bottom: 2px solid #E8840D;
 }
 
-@media (max-width: 600px) {
-  .nav > .nav-btn {
+@media (max-width: 1040px) {
+  .navbar_nav > .nav-btn {
     display: inline-block;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 10px;
+    top: 15px;
   }
-  .nav > .nav-btn > label {
+  .navbar_nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
   }
 
-  .nav > .nav-btn > label > span {
+  .navbar_nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #000;
   }
-  .nav > .nav-links {
+  .navbar_nav > .nav-links {
     position: absolute;
-    display: block;
+    /* Changed display to none (was block) until hamburger is made functional. */
+    display: none;
     width: 100%;
     background-color: #fff;
     height: 0px;
@@ -74,15 +78,19 @@
     top: 50px;
     left: 0px;
   }
-  .nav > .nav-links > a {
+  .navbar_nav > .nav-links > a {
     display: block;
     width: 100%;
   }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
+  .navbar_nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
-  .nav > #nav-check:checked ~ .nav-links {
+  .navbar_nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+
+  .navbar_nav > .nav-header > .nav-title {
+    margin-left: 0;
   }
 }
