@@ -26,7 +26,7 @@ function Footer1() {
             Get updates on what's happening at Museum Experience, from
             exhibitions and programs to special events and more
           </p>
-          <label className="foot_address" for="email">
+          <label className="foot_email_label" for="email">
             Email Address
           </label>
           <div className='foot_formContainer'>

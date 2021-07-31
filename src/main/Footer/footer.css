@@ -7,7 +7,8 @@
   padding-top: 65px;
   border-top: 1px solid rgba(134, 131, 131, 0.425);
   font-family: 'Hind';
-  margin-bottom: 105px;
+  padding-bottom: 50px;
+  background-color: #F9F9F9;
 }
 .foot-headings {
   color: #e8840d;
@@ -65,6 +66,7 @@
 
 .foot_formContainer {
   border: 1px solid rgb(196, 189, 189);
+  border-radius: 10px;
   height: 40px;
   padding-top: 3px;
 }
@@ -73,6 +75,7 @@
   width: 280px;
   height: 25px;
   border: none;
+  background-color: #F9F9F9;
 }
 
 .footerContainer input:focus {
@@ -91,6 +94,14 @@
   height: 28px;
 }
 
+.foot_email_label {
+  font-weight: bold;
+}
+
+.foot_updates {
+  margin-bottom: 7px;
+}
+
 @media (max-width: 1550px) {
   .footCol-1 {
     margin-left: 19px;
@@ -101,25 +112,29 @@
   .footerContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 15em;
-    padding-top: 4em;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 4em 0 30px 0;
   }
   .footCol-1 {
     line-height: 20px;
     margin-bottom: 20px;
+    width: 335px;
+    margin-left: 0;
   }
   .footCol-2 {
     text-align: left;
     padding-left: 0%;
     line-height: 17px;
-    margin: 0 0 54px 19px;
-    width: 296px;
+    margin: 0 0 54px 0;
+    width: 335px;
   }
   .footCol-3 {
     font-weight: 600;
     line-height: 23px;
     text-align: left;
-    margin: 0 0 0 19px;
+    margin: 0 0 0 0;
+    width: 335px;
   }
 
   .foot_formContainer {
