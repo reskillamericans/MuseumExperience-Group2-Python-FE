@@ -8,14 +8,13 @@ export default function AdminLogin() {
       <div className="adminlogin-adminL">
         <img className="adminlogin-logo" src={logo} alt="Logo" />
         <h1 className="adminlogin-adminlog">ADMIN LOGIN</h1>
-        <h1 className="adminlogin-musad">
+        {/*<h1 className="adminlogin-musad">
           MUSEUM ADM<span className="adminlogin-gold">I</span>N
-        </h1>
+  </h1>*/}
         <form className="adminlogin-form">
           <label className="adminlogin-email" for="email">
             Email
           </label>{" "}
-          <br />
           <input
             className="adminlogin-input1"
             id="email"
@@ -23,11 +22,11 @@ export default function AdminLogin() {
             name="email"
             placeholder="Email"
           />{" "}
-          <br />
+          
           <label className="adminlogin-pass" for="password">
             Password
           </label>{" "}
-          <br />
+          
           <input
             className="adminlogin-input2"
             type="password"
@@ -35,23 +34,23 @@ export default function AdminLogin() {
             name="password"
             placeholder="Password"
           />{" "}
-          <br />
+          
           <button className="adminlogin-login">Login</button>
         </form>
         <div className="adminlogin-create">
-          Don't have an account? <a href="/"> Create account</a>
+          {/*Don't have an account? */}<a href="/"> Create account</a>
         </div>
       </div>
       <div className="adminlogin-account">
-        <span className="adminlogin-forgot">
+        {/*<span className="adminlogin-forgot">*/}
           <a href="/">Forgot your password?</a>
-        </span>
-        <span>
+        {/*</span>*/}
+        {/*<span>*/}
           <a href="/" className="adminlogin-dont">
             Don't have an account?{" "}
-            <span className="adminlogin-getst">Get Started</span>
+           <span className="adminlogin-getst">Get Started</span>
           </a>
-        </span>
+       {/* </span>*/}
       </div>
     </div>
   );
