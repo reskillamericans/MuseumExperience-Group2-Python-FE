@@ -1,4 +1,5 @@
 body {
+  position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -7,7 +8,7 @@ body {
 .account-searchbar {
   background: #7e7a8f;
   position: relative;
-  width: 1600px;
+  width: 1518px;
   height: 130px;
   left: 0px;
   top: 27px;
@@ -30,7 +31,7 @@ body {
 .account-searchform {
   display: inline;
   position: absolute;
-  left: 41.8em;
+  left: 38em;
   top: 40px;
   
 }
@@ -52,6 +53,9 @@ body {
   background: #ffffff;
   border-radius: 35px;
   border: none;
+}
+.account-background img{
+  width: 1518px;
 }
 /*profile section styling*/
 .account-profileimage {
