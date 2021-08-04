@@ -20,14 +20,16 @@ import SignUp from "./admin/SignUp/SignUp";
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Switch>
+          
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/search" component={SearchPage} />
+         <Route exact path="/search" component={SearchPage} />
           <Route exact path="/register" component={Register} />
-          <Route exact path="/login" component={Login} />
+          <Route exact path="/login" component={Login} /> 
           <Route exact path="/exhibit" component={ExhibitPage} />
-          <Route exact path="/info" component={Exhibitinfo} />
+         <Route exact path="/info" component={Exhibitinfo} />
           <Route exact path="/account" component={AccountPage} />
           <Route exact path="/about" component={AboutUsMain} />
 
@@ -41,9 +43,9 @@ function App() {
           <Route exact path="/admin-profile" component={Profile} />
           <Route exact path="/admin-role" component={Roles} />
           <Route exact path="/admin-signup" component={SignUp} />
-        </Switch>
-      </Router>
-    </div>
+        </Switch> 
+      </Router> 
+      </div>
   );
 }
 
