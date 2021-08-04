@@ -6,18 +6,14 @@
   --secondarycolor: #e8840d;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
+.register__body {
   font-family: "Hind", sans-serif;
   font-size: 16px;
   background: var(--background);
   color: var(--primarytext);
 }
 
-img {
+.register__body > img {
   position: absolute;
   width: 620px;
   height: 700px;
@@ -25,10 +21,10 @@ img {
   top: 45px;
 }
 
-body {
+.register__body {
   background: #f6f5f7;
 }
-.container {
+.register_container {
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.75),
@@ -48,7 +44,7 @@ body {
   grid-column-gap: 15px;
 }
 
-.login {
+.reg_login {
   grid-column-start: 1;
   grid-column-end: 2;
   margin-right: auto;
@@ -75,17 +71,17 @@ body {
   grid-column-end: 3;
 }
 
-p {
+/* p {
   font-size: 16px;
   font-weight: bold;
 }
-
-h1 {
+ */
+.registerfor > h1 {
   font-size: 39px;
   text-align: left;
 }
 
-h3 {
+.register > h3 {
   font-size: 23px;
   font-weight: bold;
 }
@@ -117,7 +113,7 @@ h3 {
   letter-spacing: 1px;
 }
 
-input {
+reg_form > input {
   background-color: #f9f9f9;
   border: none;
   padding: 12px 15px;
@@ -126,9 +122,10 @@ input {
   border-radius: 4px;
 }
 
-a {
+/* a {
   color: #bababa;
   font-size: 13px;
   text-decoration: none;
   margin: 15px 0;
 }
+ */

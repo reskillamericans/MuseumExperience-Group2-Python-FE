@@ -5,7 +5,7 @@ body {
 }
 
 /*Searchbar styling*/
-.searchbar {
+.account-searchbar {
   background: #7e7a8f;
   position: relative;
   width: 1600px;
@@ -13,7 +13,7 @@ body {
   left: 0px;
   top: 27px;
 }
-.searchheader {
+.account-searchheader {
   display: inline;
   position: absolute;
   width: 337px;
@@ -27,13 +27,13 @@ body {
   color: #000000;
   margin-right: 6em;
 }
-.searchform {
+.account-searchform {
   display: inline;
   position: absolute;
   left: 37.5em;
   top: 48px;
 }
-.searchbar button {
+.account-searchbar button {
   position: absolute;
   top: 8px;
   left: 0px;
@@ -43,7 +43,7 @@ body {
   border-radius: 50%;
 }
 
-input {
+.account-input {
   width: 590px;
   height: 35px;
   top: 6px;
@@ -52,7 +52,7 @@ input {
   border: none;
 }
 /*profile section styling*/
-.profileimage {
+.account-profileimage {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -64,19 +64,19 @@ input {
   background: #f9f9f9;
   border-radius: 50%;
 }
-.man {
+.account-man {
   width: 132px;
   height: 130px;
   margin-left: 2em;
 }
-.camera {
+.account-camera {
   position: absolute;
   width: 100px;
   height: 100px;
   left: 807px;
   top: 566px;
 }
-.name {
+.account-name {
   position: absolute;
   left: 636px;
   width: 300.95px;
@@ -89,7 +89,7 @@ input {
   letter-spacing: -0.2px;
   color: #180126;
 }
-.mail {
+.account-mail {
   position: absolute;
   left: 615px;
   top: 650px;
@@ -103,7 +103,7 @@ input {
   letter-spacing: -0.2px;
   color: #c3c7d2;
 }
-.add {
+.account-add {
   position: absolute;
   left: 701px;
   right: 702px;
@@ -121,7 +121,7 @@ input {
   border: none;
 }
 /*main box styling*/
-.maincontainer {
+.account-maincontainer {
   padding-top: 5em;
   position: absolute;
   width: 1261px;
@@ -132,7 +132,7 @@ input {
   border-radius: 35px;
   margin-bottom: 5em;
 }
-#subscribe {
+#account-subscribe {
   display: inline;
   width: 335px;
   height: 48px;
@@ -147,7 +147,7 @@ input {
   letter-spacing: -0.2px;
   color: #180126;
 }
-#upcoming {
+#account-upcoming {
   display: inline;
   width: 252px;
   height: 48px;
@@ -160,7 +160,7 @@ input {
   letter-spacing: -0.2px;
   color: #8a8a8a;
 }
-.imagecontainer {
+.account-imagecontainer {
   display: flex;
   justify-content: center;
   width: 1261px;
@@ -170,18 +170,18 @@ input {
   background: #dfdee3;
   border-radius: 35px;
 }
-div.imagecontainer img {
+div.account-imagecontainer img {
   margin-top: 1.5em;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 10px;
   height: 75%;
 }
-div.imagecontainer > img:first-child,
-div.imagecontainer > img:nth-child(2) {
+div.account-imagecontainer > img:first-child,
+div.account-imagecontainer > img:nth-child(2) {
   margin-right: 3.75em;
 }
-#history {
+#account-history {
   height: 48px;
   left: 695px;
   top: 1520px;
@@ -193,7 +193,7 @@ div.imagecontainer > img:nth-child(2) {
   letter-spacing: -0.2px;
   color: #000000;
 }
-.questions {
+.account-questions {
   width: 1260px;
   height: 379px;
   left: 170px;
@@ -201,7 +201,7 @@ div.imagecontainer > img:nth-child(2) {
   background: #dfdee3;
   border-radius: 35px;
 }
-.accordion {
+.account-accordion {
   margin-bottom: 1.5625em;
   width: 863px;
   height: 76px;
@@ -215,19 +215,19 @@ div.imagecontainer > img:nth-child(2) {
   text-align: start;
 }
 
-.check {
+.account-check {
   width: 24px;
   height: 24px;
   left: 396px;
   top: 1599px;
   margin-right: 3em;
 }
-.plus {
+.account-plus {
   position: absolute;
   right: 20em;
 }
 /*footer styling*/
-.line {
+.account-line {
   margin-top: 2.5em;
   position: absolute;
   width: 1264px;
@@ -236,13 +236,13 @@ div.imagecontainer > img:nth-child(2) {
   top: 2365px;
   transform: rotate(0.09deg);
 }
-.footer {
+.account-footer {
   margin-top: 2.5em;
   position: absolute;
   top: 2433px;
 }
-div.address > p:first-child,
-div.contact > p:first-child {
+div.account-address > p:first-child,
+div.account-contact > p:first-child {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -250,7 +250,7 @@ div.contact > p:first-child {
   letter-spacing: -0.2px;
   color: #e8840d;
 }
-.address {
+.account-address {
   position: absolute;
   width: 198.77px;
   height: 60px;
@@ -262,7 +262,7 @@ div.contact > p:first-child {
   letter-spacing: -0.2px;
   color: #180126;
 }
-.contact {
+.account-contact {
   position: absolute;
   width: 378px;
   height: 60px;
@@ -273,7 +273,7 @@ div.contact > p:first-child {
   color: #180126;
 }
 /*contact section styling*/
-#email {
+#account_email {
   position: relative;
   width: 343px;
   height: 40px;
@@ -281,10 +281,10 @@ div.contact > p:first-child {
   box-sizing: border-box;
   border-radius: 4px;
 }
-label {
+.account-label {
   display: block;
 }
-.emailcontainer button {
+.account-emailcontainer button {
   position: absolute;
   left: 16em;
   top: 10.2em;
@@ -297,7 +297,7 @@ label {
   border-radius: 50px;
   border: none;
 }
-.links {
+.account-links {
   position: absolute;
   width: 288px;
   height: 20px;

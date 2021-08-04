@@ -7,13 +7,13 @@ import ExhibitPage from "./main/ExhibitPage/Exhibitpage";
 import Exhibitinfo from "./main/Exhibitinfo/exhibitinfo";
 import AccountPage from "./main/Account/AccountPage";
 import AboutUsMain from "./main/AboutUsMain/AboutUsMain";
-
+import CreateExhibit from "./admin/CreateExhibit/CreateExhibit";
 import Addartwork from "./admin/AddArtwork/addartwork";
-import CreateExhibit from "./admin/CreateExhibit/createexhibit";
 import Dashboard from "./admin/Dashboard/Dashboard";
 import Exhibit from "./admin/Exhibit/exhibit";
 import AdminLogin from "./admin/Login/AdminLogin";
 import Profile from "./admin/Profile/profile";
+import AdminProfilePage from "./admin/adminProfile/AdminProfilePage";
 import Roles from "./admin/Roles/Roles";
 import SignUp from "./admin/SignUp/SignUp";
 
@@ -40,7 +40,7 @@ function App() {
           <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/admin-exhibit" component={Exhibit} />
           <Route exact path="/admin-login" component={AdminLogin} />
-          <Route exact path="/admin-profile" component={Profile} />
+          <Route exact path="/admin-profile" component={AdminProfilePage} />
           <Route exact path="/admin-role" component={Roles} />
           <Route exact path="/admin-signup" component={SignUp} />
         </Switch> 

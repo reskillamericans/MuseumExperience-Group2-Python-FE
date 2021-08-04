@@ -14,90 +14,98 @@ import React from "react";
 function AccountPage() {
   return (
     <div>
-      <div className="searchbar">
-        <p className="searchheader">MY ACCOUNT</p>
-        <div className="searchform">
-          <form action="/action_page.php" className="search">
-            <input type="text" placeholder="Search.." name="search" />
+      <div className="account-searchbar">
+        <p className="account-searchheader">MY ACCOUNT</p>
+        <div className="account-searchform">
+          <form action="/action_page.php" className="account-search">
+            <input
+              type="text"
+              className="account-input"
+              placeholder="Search.."
+              name="search"
+            />
             <button type="submit">
-              <img src={search} />
+              <img src={search} alt="search" />
             </button>
           </form>
         </div>
       </div>
-      <div className="background">
+      <div className="account-background">
         <img src={background} alt="hands" />
       </div>
-      <div className="profileimage">
-        <div className="man">
+      <div className="account-profileimage">
+        <div className="account-man">
           <img src={profileimg} alt="profile" />
         </div>
       </div>
-      <div className="camera">
+      <div className="account-camera">
         <img src={addimage} alt="camera" />
       </div>
-      <div className="info">
-        <p className="name">John Smith</p>
-        <p className="mail">john.smith@email.com</p>
+      <div className="account-info">
+        <p className="account-name">John Smith</p>
+        <p className="account-mail">john.smith@email.com</p>
       </div>
-      <button className="add">Add Exhibit</button>
-      <div className="maincontainer">
-        <p id="subscribe">Your Subscribed Exhibits</p>
-        <p id="upcoming">Upcoming Exhibits</p>
-        <div className="imagecontainer">
+      <button className="account-add">Add Exhibit</button>
+      <div className="account-maincontainer">
+        <p id="account-subscribe">Your Subscribed Exhibits</p>
+        <p id="account-upcoming">Upcoming Exhibits</p>
+        <div className="account-imagecontainer">
           <img src={img1} alt="portrait" />
           <img src={img2} alt="monalisa" />
           <img src={img3} alt="goldface" />
         </div>
 
-        <div className="questions">
-          <p id="history">Question History</p>
-          <button class="accordion">
-            <img src={check} className="check" /> Suspendisse luctus ornare
-            iacullis <img src={plus} className="plus" />
+        <div className="account-questions">
+          <p id="account-history">Question History</p>
+          <button class="account-accordion">
+            <img src={check} className="account-check" alt="checkbox" />{" "}
+            Suspendisse luctus ornare iacullis{" "}
+            <img src={plus} className="plus" alt="plus icon" />
           </button>
-          <div class="panel"></div>
+          <div class="account-panel"></div>
 
-          <button class="accordion">
-            <img src={check} className="check" />
+          <button class="account-accordion">
+            <img src={check} className="account-check" alt="checkbox" />
             Donec ut feugiat leo. Nullam at mauris eros
-            <img src={plus} className="plus" />
+            <img src={plus} className="plus" alt="plus icon" />
           </button>
-          <div class="panel"></div>
+          <div class="account-panel"></div>
 
-          <button class="accordion">
-            <img src={check} className="check" /> Fusce ut consequat eros, eget
-            vehicula ante
-            <img src={plus} className="plus" />
+          <button class="account-accordion">
+            <img src={check} className="account-check" alt="checkbox" /> Fusce
+            ut consequat eros, eget vehicula ante
+            <img src={plus} className="account-plus" alt="plus icon" />
           </button>
-          <div class="panel"></div>
+          <div class="account-panel"></div>
         </div>
       </div>
-      <div className="line">
+      <div className="account-line">
         <img src={img4} alt="linebreak" />
       </div>
-      <div className="footer">
-        <div className="address">
+      <div className="account-footer">
+        <div className="account-address">
           <p>VISIT US</p>
           <p>Avenue of the Arts</p>
           <p>465 Huntington Avenue</p>
           <p>Boston, MA 02155</p>
         </div>
-        <div className="contact">
+        <div className="account-contact">
           <p>SIGN UP FOR MUSEUM EXPERIENCE EMAIL</p>
           <p>
             Get updates on what's happening at Museum Experience, from
             exhibitions and programs to special events and more
           </p>
-          <div className="emailcontainer">
+          <div className="account-emailcontainer">
             <form action="/action_page.php">
-              <label for="emailaddress">Email Address</label>
-              <input type="email" name="email" id="email" />
+              <label for="emailaddress" className="account-label">
+                Email Address
+              </label>
+              <input type="email" name="email" id="account_email" />
               <button type="submit">Sign Up</button>
             </form>
           </div>
         </div>
-        <div className="links">
+        <div className="account-links">
           <p>SUPPORT</p>
           <p>MEMBERSHIP</p>
           <p>HOST AN EVENT</p>

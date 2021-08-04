@@ -70,23 +70,23 @@ export default function Exhibit() {
 
       <div className="Exhibit_nav">
         <button className="navimen">
-          <a href="">
+          <a href="/">
             <h2 className="Exhibit_menu">NAVIGATION MENU</h2>
           </a>
         </button>
         <button className="Exhibit_dash">
-          <a href="">
+          <a href="/">
             <h3>Dashboard</h3>
           </a>
         </button>
         <button className="exhi">
-          <a href="">
+          <a href="/">
             <h3>Exhibits</h3>
             <img src={poly} alt="triangle" className="poly" />
           </a>
         </button>
         <button className="Exhibit_dash">
-          <a href="">
+          <a href="/">
             <h3>Admin Roles</h3>
           </a>
         </button>

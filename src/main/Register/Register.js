@@ -4,11 +4,11 @@ import "./Register.css";
 
 function Register() {
   return (
-    <>
+    <div className="register__body">
       <img src={image} alt="portraitimage" class="image" />
 
-      <div class="container" id="container">
-        <div class="login">
+      <div class="register_container" id="container">
+        <div class="reg_login">
           <button class="loginbtn">Log In</button>
         </div>
         <div class="register">
@@ -19,7 +19,7 @@ function Register() {
         </div>
 
         <div class="form1">
-          <form action="#">
+          <form action="#" className="reg_form">
             <input type="fullname" placeholder="Full Name" />
             <input type="email" placeholder="Email Address" />
             <input type="password" placeholder="Password" />
@@ -36,7 +36,7 @@ function Register() {
           <button class="contbtn">Continue</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Register;

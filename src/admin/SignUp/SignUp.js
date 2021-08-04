@@ -16,7 +16,7 @@ export default function SignUp() {
             <form className="signup-form">
               <label>Email</label>
               <br />
-              <input className="signup-input" type="text"  />
+              <input className="signup-input" type="text" />
               <br />
 
               <label>Password</label>
@@ -37,7 +37,8 @@ export default function SignUp() {
             <button className="signup-button">LOGIN</button>
           </div>
           <text className="signup-text">
-            Already have an account?<span className="signup-span_2">Log in</span>
+            Already have an account?
+            <span className="signup-span_2">Log in</span>
           </text>
         </div>
       </div>
