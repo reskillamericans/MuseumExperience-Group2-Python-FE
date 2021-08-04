@@ -60,14 +60,14 @@ function AccountPage() {
           <button class="account-accordion">
             <img src={check} className="account-check" alt="checkbox" />{" "}
             Suspendisse luctus ornare iacullis{" "}
-            <img src={plus} className="plus" alt="plus icon" />
+            <img src={plus} className="account-plus" alt="plus icon" />
           </button>
           <div class="account-panel"></div>
 
           <button class="account-accordion">
             <img src={check} className="account-check" alt="checkbox" />
             Donec ut feugiat leo. Nullam at mauris eros
-            <img src={plus} className="plus" alt="plus icon" />
+            <img src={plus} className="account-plus" alt="plus icon" />
           </button>
           <div class="account-panel"></div>
 
@@ -82,36 +82,9 @@ function AccountPage() {
       <div className="account-line">
         <img src={img4} alt="linebreak" />
       </div>
-      <div className="account-footer">
-        <div className="account-address">
-          <p>VISIT US</p>
-          <p>Avenue of the Arts</p>
-          <p>465 Huntington Avenue</p>
-          <p>Boston, MA 02155</p>
-        </div>
-        <div className="account-contact">
-          <p>SIGN UP FOR MUSEUM EXPERIENCE EMAIL</p>
-          <p>
-            Get updates on what's happening at Museum Experience, from
-            exhibitions and programs to special events and more
-          </p>
-          <div className="account-emailcontainer">
-            <form action="/action_page.php">
-              <label for="emailaddress" className="account-label">
-                Email Address
-              </label>
-              <input type="email" name="email" id="account_email" />
-              <button type="submit">Sign Up</button>
-            </form>
-          </div>
-        </div>
-        <div className="account-links">
-          <p>SUPPORT</p>
-          <p>MEMBERSHIP</p>
-          <p>HOST AN EVENT</p>
-          <p>CORPORATE SUPPORTS</p>
-        </div>
-      </div>
+     
+      
+    
     </div>
   );
 }
