@@ -48,10 +48,17 @@
 .search_search-button img {
   margin-top: 5px;
   margin-left: 265px;
+  
 }
 
 .SearchPage h1 {
   margin-left: 50px;
+}
+
+.exhibitinfo_mag{
+  margin-left: 270px;
+  margin-top: 5px;
+  width:15px;
 }
 
 .search_degas {
