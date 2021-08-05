@@ -77,6 +77,8 @@
 }
 .createExhibit_logo {
   grid-area: logo;
+  margin-left: 7%;
+  margin-top: 4%;
 }
 /******/
 .createExhibit_aside {
@@ -131,7 +133,7 @@
   background: white;
   z-index: 100;
   left: 23.2%;
-  top: 29.5%;
+  top: 21%;
   transform: rotate(45deg);
 }
 .aside-b3 {
@@ -204,8 +206,8 @@ form {
   box-sizing: border-box;
   border-radius: 0px 0px 6px 6px;
   position: absolute;
-  left: 24.48em;
-  top: 22.5em;
+  left: 38%;
+  top: 52%;
 }
 .emptyp {
   font-weight: 500;
@@ -224,8 +226,8 @@ form {
   border-radius: 0px 0px 6px 6px;
   transform: matrix(1, 0, 0, -1, 0, 0);
   position: absolute;
-  top: 11.5em;
-  left: 24.48em;
+  top: 28%;
+  left: 37.95%;
 }
 .maininput-1,
 .maininput-4 {
@@ -251,6 +253,7 @@ form {
   justify-content: space-around;
   margin-bottom: 2.5em;
   margin-left: 140.07px;
+  margin-top: -4%;
 }
 .button-1,
 .button-2,
@@ -316,7 +319,7 @@ form {
   letter-spacing: -0.2px;
   color: #8a8a8a;
 }
-#save,
-#cancel {
-  margin-top: 3.5em;
+#createExhibit_save,
+#createExhibit_cancel {
+  margin-top: -5%;
 }
