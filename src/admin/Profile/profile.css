@@ -131,6 +131,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
+  margin-top: 4%;
   line-height: 37px;
   color: #8a8a8a;
 }
@@ -141,6 +142,7 @@
   flex-direction: column;
   background: #eaeaea;
   padding-top: 2em;
+  margin-top: 3%;
   width: 866px;
   padding-bottom: 3em;
   margin-bottom: 3em;
@@ -197,6 +199,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
+  margin-top: 6%;
   line-height: 25px;
   text-align: center;
 }
@@ -205,6 +208,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 5%;
+  margin-left: -35%;
   width: 87%;
   margin-bottom: 3em;
   left: 100px;
