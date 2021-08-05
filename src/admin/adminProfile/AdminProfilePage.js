@@ -20,26 +20,27 @@ import Image16 from "./Image16 1.png";
 
 function AdminProfilePage () {
   return (
-    <div className="Profile2">
-      <div className="header">
+   <div className="adminprofile_body"> 
+    <div className="adminprofile_Profile2">
+      <div className="adminprofile_header">
         <div>
-          <img src={LogoImage1} alt="logo" />
-          <img src={LogoImage} alt="museum" />
+          <img src={LogoImage1} alt="logo" className="adminprofile_logo" />
+          <img src={LogoImage} alt="museum" className="adminprofile_musad" />
         </div>
 
-        <div className="nav">
+        <div className="adminprofile_nav">
           <div>
-            <div className="bar">
+            <div className="adminprofile_bar">
               <img src={Rectangle} alt="museum" />
             </div>
-            <div classname="search">
-              <div className="magnifier">
+            <div classname="adminprofile_search">
+              <div className="adminprofile_magnifier">
                 <img src={Search} alt="museum" />
               </div>
             </div>
           </div>
           <div>
-            <div className="icons">
+            <div className="adminprofile_icons">
               <img src={Mail} alt="museum" />
               <img src={Bell} alt="museum" />
               <img src={LogOut} alt="museum" />
@@ -50,18 +51,18 @@ function AdminProfilePage () {
       </div>
 
       {/* main */}
-      <div className="text-2">
+      <div className="adminprofile_text-2">
         <h3>Profile</h3>
       </div>
 
-      <div className="rectangle-container">
-        <div className="rectangle2">
+      <div className="adminprofile_rectangle-container">
+        <div className="adminprofile_rectangle2">
           <img src={Image7} alt="background" />
         </div>
       </div>
 
-      <div className="side-bar">
-        <div className="text">
+      <div className="adminprofile_side-bar">
+        <div className="adminprofile_text">
           <h2>Sign Out</h2>
         </div>
 
@@ -69,11 +70,11 @@ function AdminProfilePage () {
         <div></div>
       </div>
 
-      <div className="side-container">
+      <div className="adminprofile_side-container">
         <img src={Image8} alt="small rectangle" />
       </div>
 
-      <div className="text-3">
+      <div className="adminprofile_text-3">
         <h4>
           Total No. Exhibits <span> 46</span>
         </h4>
@@ -88,14 +89,14 @@ function AdminProfilePage () {
         </h4>
       </div>
 
-      <div className="mid-container">
+      <div className="adminprofile_mid-container">
         <img src={ProfileImage} alt="pic" />
       </div>
 
-      <div className="lower-container">
-        <h3>Tiffany Farmboy</h3>
-        <h4>Tiffany.Farmboy@museum.com</h4>
-        <h3>Curator</h3>
+      <div className="adminprofile_lower-container">
+        <h3 className="adminprofile_tiff">Tiffany Farmboy</h3>
+        <h4 className="adminprofile_tiffe">Tiffany.Farmboy@museum.com</h4>
+        <h3 className="adminprofile_cur">Curator</h3>
       </div>
 
       <button>
@@ -103,29 +104,30 @@ function AdminProfilePage () {
         <br /> Total Answered Questions
       </button>
 
-      <div className="text-4">
+      <div className="adminprofile_text-4">
         <h4>Recently edited exhibits</h4>
       </div>
 
-      <div className="box-container">
-        <div className="left-arrow">
+      <div className="adminprofile_box-container">
+        <div className="adminprofile_left-arrow">
           <img src={Image15} alt="left arrow" />
         </div>
         ``
-        <div classname="box1">
+        <div classname="adminprofile_box1">
           <img src={Image3} alt="flower" />
         </div>
-        <div className="box2">
+        <div className="adminprofile_box2">
           <img src={Image4} alt="abstract" />
         </div>
-        <div className="box3">
+        <div className="adminprofile_box3">
           <img src={Image5} alt="mod art" />
         </div>
-        <div className="right-arrow">
+        <div className="adminprofile_right-arrow">
           <img src={Image16} alt="right arrow" />
         </div>
       </div>
     </div>
+   </div> 
   );
 }
 
