@@ -129,14 +129,14 @@
     margin-top: 1px;
     margin-left:25px;
     height: 896px;
-    width: 480px;
+    width: 380px;
     justify-content: center;
     flex-direction: column;
   }
 
   .aboutus_c1 {
     justify-content: center;
-    width: 480px;
+    width: 380px;
     height: 896px;
   }
 
@@ -152,7 +152,7 @@
 
   .aboutus_box {
     background-color: #ffffff;
-    width: 480px;
+    width: 380px;
     height: 896px;
     padding-top: 15px;
     margin-top: 255px;
@@ -189,7 +189,7 @@
 
   .aboutus_h2 {
     margin-bottom: 30px;
-    margin-left:95px;
+    margin-left:145px;
     margin-top:-17px;
     margin-right: 220px;
     font-style: italic;
