@@ -41,11 +41,11 @@ function CreateExhibit() {
           <button className="aside-b2">Exhibits</button>
           <button className="aside-b3">Admin Roles</button>
           <p className="createExhibit_stats">Total No. Exhibits</p>{" "}
-          <p className="number">46</p>
+          <p className="createExhibit_number">46</p>
           <p className="createExhibit_stats">Total No. Questions</p>{" "}
           <p className="createExhibit_number">13</p>
           <p className="createExhibit_stats">Answered Questions</p>{" "}
-          <p className="number">10</p>
+          <p className="createExhibit_number">10</p>
           <p className="createExhibit_stats">Unanswered Questions</p>{" "}
           <p className="createExhibit_number">3</p>
         </div>
@@ -56,6 +56,8 @@ function CreateExhibit() {
               <label className="mainlabel">Exhibit Name</label>
               <input type="text" name="title" className="maininput-1" />
               <br />
+              
+              <input type="text" className="empty1"/>
               <label className="mainlabel">Description</label>
               <textarea
                 name="description"
@@ -66,10 +68,8 @@ function CreateExhibit() {
                 className="maininput-3"
               />
             </form>
-            <div className="empty">
-              <p className="emptyp">0/5000</p>
-            </div>
-            <div className="empty1"></div>
+            <div className="empty"><p className="emptyp">0/5000</p></div>
+            
           </div>
           <div className="createExhibit_buttoncontainer">
             <button className="button-1">
