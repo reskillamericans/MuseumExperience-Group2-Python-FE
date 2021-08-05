@@ -37,11 +37,11 @@ function Addartwork() {
           <button className="Addartwork_aside-b2">Exhibits</button>
           <button className="Addartwork_aside-b3">Admin Roles</button>
           <p className="Addartwork_stats">Total No. Exhibits</p>{" "}
-          <p className="number">46</p>
+          <p className="Addartwork_number">46</p>
           <p className="Addartwork_stats">Total No. Questions</p>{" "}
           <p className="Addartwork_number">13</p>
           <p className="Addartwork_stats">Answered Questions</p>{" "}
-          <p className="number">10</p>
+          <p className="Addartwork_number">10</p>
           <p className="Addartwork_stats">Unanswered Questions</p>{" "}
           <p className="Addartwork_number">3</p>
         </div>
@@ -49,20 +49,23 @@ function Addartwork() {
           <p id="Addartwork_mainp">Add Art Work</p>
           <div className="form2">
             <form action="/action_page.php" className="Addartwork_form">
-              <label className="Addartwork_mainlabel">Title</label>
+              <label className="Addartwork_mainlabelT">Title</label>
               <input
                 type="text"
                 name="title"
                 className="Addartwork_maininput-1"
               />
-              <label className="Addartwork_mainlabel">Artist's Name</label>
+              <div className="Addartwork_artistname">
+              <label className="Addartwork_mainlabelN">Artist's Name</label>
               <input
                 type="text"
                 name="artist"
                 className="Addartwork_maininput-2"
               />
+              </div>
               <br />
-              <label className="Addartwork_mainlabel">Description</label>
+              <input type="text" className="Addartwork_empty1"/>
+              <label className="Addartwork_mainlabelD">Description</label>
               <textarea
                 name="description"
                 cols="40"
@@ -75,8 +78,7 @@ function Addartwork() {
             <div className="Addartwork_empty">
               <p className="Addartwork_emptyp">0/5000</p>
             </div>
-            <div className="Addartwork_empty1"></div>
-          </div>
+            
           <div className="Addartwork_buttoncontainer">
             <button className="Addartwork_button-1">
               Add Image{" "}
@@ -92,19 +94,22 @@ function Addartwork() {
             </button>
           </div>
           <form action="/action_page.php">
-            <label className="Addartwork_mainlabel">URL</label>
+            <div className="Addartwork_URL">
+            <label className="Addartwork_mainlabelU">URL</label>
             <input type="url" name="url" className="Addartwork_maininput-4" />
+            </div>
           </form>
           <button className="Addartwork_plusart">
             <img src={plus} alt="pluscircle" /> Add Additional Artwork
           </button>
-          <div>
+          <div className="Addartwork_savcan">
             <button id="Addartwork_save">Save</button>
             <button id="Addartwork_cancel">Cancel</button>
           </div>
         </div>
       </div>
     </div>
+  </div>
   );
 }
 

@@ -23,7 +23,7 @@
   position: absolute;
   height: 48px;
   width: 48px;
-  left: 95%;
+  left: 93%;
   right: 0%;
   top: 16.22%;
   bottom: 18.92%;
@@ -34,6 +34,7 @@
   position: relative;
   width: 1.5em;
   height: 1.5em;
+  margin-top: 1%;
 }
 #Addartwork_mail {
   position: absolute;
@@ -44,14 +45,14 @@
 }
 #Addartwork_bell {
   position: absolute;
-  left: 85%;
+  left: 84%;
   right: 3.98%;
   top: 16.22%;
   bottom: 18.92%;
 }
 #Addartwork_exit {
   position: absolute;
-  left: 90%;
+  left: 88%;
   right: 0%;
   top: 16.22%;
   bottom: 18.92%;
@@ -77,6 +78,8 @@
 }
 .Addartwork_logo {
   grid-area: logo;
+  margin-left: 7%;
+  margin-top: 4%;
 }
 /******/
 .Addartwork_aside {
@@ -85,6 +88,7 @@
   border: 1px solid #8a8a8a;
   margin-top: 1em;
   padding-bottom: 2.5em;
+  border-bottom: none;
 }
 /*aside styling*/
 .Addartwork_nav {
@@ -131,7 +135,7 @@
   background: white;
   z-index: 100;
   left: 23.2%;
-  top: 29.5%;
+  top: 20%;
   transform: rotate(45deg);
 }
 .Addartwork_aside-b3 {
@@ -165,17 +169,23 @@
   line-height: 37px;
   color: #8a8a8a;
   margin-left: 61px;
+  margin-top: 2%;
 }
 form {
   display: inline-block;
 }
-.Addartwork_mainlabel {
+.Addartwork_mainlabelT, .Addartwork_mainlabelD, .Addartwork_mainlabelN, .Addartwork_mainlabelU{
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
   line-height: 28px;
   color: #8a8a8a;
   margin-left: 61px;
+}
+
+.Addartwork_mainlabelN {
+  margin-left: 80px;
+  padding-right: 0%;
 }
 .Addartwork_maininput-3 {
   resize: none;
@@ -200,8 +210,8 @@ form {
   box-sizing: border-box;
   border-radius: 0px 0px 6px 6px;
   position: absolute;
-  left: 24.48em;
-  top: 23.16em;
+  left: 38%;
+  top: 54%;
 }
 .Addartwork_emptyp {
   font-weight: 500;
@@ -220,25 +230,47 @@ form {
   border-radius: 0px 0px 6px 6px;
   transform: matrix(1, 0, 0, -1, 0, 0);
   position: absolute;
-  top: 13.3em;
-  left: 24.48em;
+  top: 28%;
+  left: 37.95%;
 }
-.Addartwork_maininput-1,
-.Addartwork_maininput-2,
-.Addartwork_maininput-4 {
+.Addartwork_maininput-1 {
   width: 830px;
   height: 50px;
   margin-left: 207.07px;
+  background: #ffffff; 
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 105px;
+  margin-top: 2%;
+}
+.Addartwork_maininput-2 {
+  margin-left: 150px;
+  margin-top: 1%;
+  width: 830px;
+  height: 50px;
+  margin-left: 19px;
   background: #ffffff;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
   border-radius: 6px;
 }
-.Addartwork_maininput-1 {
-  margin-left: 105px;
+.Addartwork_artistname {
+  margin-left: -2%;
 }
 .Addartwork_maininput-4 {
   margin-bottom: 41px;
+  margin-left: 80px;
+  width: 830px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.Addartwork_URL {
+margin-left: 2%;
+display: flex;
 }
 
 .Addartwork_buttoncontainer {
@@ -247,7 +279,7 @@ form {
   width: 75%;
   justify-content: space-around;
   margin-bottom: 24px;
-  margin-left: 140.07px;
+  margin-left: 156px;
 }
 .Addartwork_button-1,
 .Addartwork_button-2,
@@ -255,8 +287,8 @@ form {
   border: 1px solid #8a8a8a;
   border-radius: 4px;
   background-color: #ffffff;
-  height: 150px;
-  width: 150px;
+  height: 144px;
+  width: 197px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,5 +347,8 @@ form {
 }
 #Addartwork_save,
 #Addartwork_cancel {
-  margin-top: 3.5em;
+  margin-top: -10%;
+}
+.Addartwork_savcan {
+  margin-top: -1%;
 }
