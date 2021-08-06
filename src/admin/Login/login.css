@@ -69,18 +69,18 @@
   font-size: 13px;
   padding-top: 6em;
 }
-a:link {
+.adminlogin-container a:link {
   color: #fffafa;
   text-decoration: none;
 }
-a:visited {
+.adminlogin-container a:visited {
   color: #fffafa;
   text-decoration: none;
 }
-a:hover {
+.adminlogin-container a:hover {
   color: #fffafa;
 }
-a:active {
+.adminlogin-container a:active {
   color: #fffafa;
 }
 
