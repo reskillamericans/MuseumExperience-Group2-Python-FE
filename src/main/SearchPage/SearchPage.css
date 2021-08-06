@@ -1,16 +1,22 @@
 .SearchPage {
-  height: 100%;
-  background-color: rgb(229, 229, 229);
+  display: flexbox;
+  overflow: hidden;
+  height: 3879px;
+  width: 1790px;
+  background-color: #F9F9F9;
+  ;
 }
 
 .search_head {
   display: flex;
-  width: 100%;
-  height: auto;
+  width: 1790px;
+  height: 130px;
   left: 0px;
   top: 27px;
   background-color: #7e7a8f;
   justify-content: space-between;
+  padding-right: 17px;
+  margin-top: 70px;
 }
 
 .search_my-account {
@@ -19,17 +25,17 @@
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 39px;
   line-height: 62px;
   letter-spacing: -0.2px;
   color: #000000;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 25px;
 }
 
 .search_search-button {
-  width: 390px;
-  height: 25px;
+  width: 590px;
+  height: 35px;
   background: #ffffff;
   border-radius: 35px;
   border-style: none;
@@ -40,15 +46,28 @@
   line-height: 26px;
   text-align: left;
   color: #8a8a8a;
-  margin-top: 30px;
+  margin-top: 40px;
   padding-left: 25px;
   padding-bottom: 35px;
 }
 
 .search_search-button img {
-  margin-top: 5px;
-  margin-left: 265px;
+  display: block;
+  margin-top: -25px;
+  margin-left: 520px; 
+}
+.search_Ser {
+  display: block;
+  margin-top: 1%;
   
+}
+
+.search_resultstext {
+  display: block;
+  margin-top: 2%;
+  padding-left: 9%;
+  padding-bottom: 2%;
+  font-size: 39px;
 }
 
 .SearchPage h1 {
@@ -62,50 +81,62 @@
 }
 
 .search_degas {
-  width: 900px;
-  height: 35px;
+  width: 1264px;
+  height: 68px;
   text-align: left;
   font-size: 24px;
   font-weight: bold;
   border: 0.5px solid gray;
   padding: 10px;
-  margin-left: 50px;
+  margin-left: 15%;
 }
 
 .search_artsearch {
   display: flex;
 }
 
+.search_all-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 1260px;
+  margin-left: 13%;
+  font-size: 30px;
+  
+}
+
 .search_resultslisting {
   display: flex;
+  width: 1194px;
   justify-content: space-around;
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 39px;
   line-height: 62px;
   letter-spacing: -0.2px;
   color: #8a8a8a;
-  margin-left: 15px;
+  margin-left: 14%;
+  margin-top: 80px;
+  padding-bottom: 172px;
 }
 
 .search_x {
-  margin-top: -35px;
+  margin-top: -30px;
   position: relative;
-  left: 850px;
+  left: 1120px;
 }
 
 .search_box-mag {
-  padding-top: 15px;
-  padding-left: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
   border: 2px solid gray;
-  height: 39px;
-  width: 43px;
+  height: 68px;
+  width: 70px;
   justify-items: center;
+  margin-left: -4%;
 }
-.SearchPage p {
+.search_allre {
   color: black;
-  font-size: 27px;
 }
 
 .search_vl1 {
@@ -131,26 +162,26 @@
   border: 1px solid gray;
   border-spacing: 15px;
   background-color: #ffffff;
-  width: 950px;
-  height: 200px;
+  height: 459px;
   padding-top: 45px;
   padding-bottom: 25px;
   padding-left: 35px;
   list-style-type: none;
-  margin-bottom: 35px;
+  margin-bottom: 100px;
 }
 
 .search_description1 {
   display: flex;
   margin-left: 285px;
   margin-top: -270px;
+  height: 400px;
 }
 
 .search_list {
   list-style-type: none;
-  line-height: 4.333em;
+  line-height: 80px;
   margin-right: 25px;
-  margin-bottom: 40px;
+  margin-top: 18px;
 }
 
 .search_artwork {
@@ -179,10 +210,11 @@
   background: #e8840d;
   border-radius: 50px;
   color: white;
-  width: 145px;
-  height: 40px;
+  width: 300px;
+  height: 75px;
   border-style: none;
-  margin-top: 15px;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-top: 45px;
+  margin-left: 40%;
+  font-size: 30px;
+  font-weight: bold;
 }
