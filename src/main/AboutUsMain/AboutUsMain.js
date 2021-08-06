@@ -38,6 +38,7 @@ function AboutUsMain() {
               </div>
               <h1 className="aboutus_h1" id="aboutus_m1">Museum Experience</h1>
               <h1 className="aboutus_h1" id="aboutus_m2">The Museum</h1>
+              <h1 className="aboutus_h1_alt" id="aboutus_m2_alt">The Mus<b id="aboutus_g">e</b>um</h1>
               <h2 className="aboutus_h2">Est.1986</h2>
               <div ClassName="aboutus_content-holder">
                 <div ClassName="aboutus_Mission">
