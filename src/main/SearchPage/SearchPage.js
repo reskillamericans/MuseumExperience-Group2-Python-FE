@@ -18,7 +18,7 @@ function SearchPage() {
         <div className="search_head">
           <h1 className="search_my-account">SEARCH/RESULTS</h1>
           <button className="search_search-button">
-            <b>Search</b>
+            <b className="search_Ser">Search</b>
             <img src={vector} alt="magnifier" />
           </button>
         </div>
@@ -37,13 +37,13 @@ function SearchPage() {
         </div>
       </div>
       <div className="search_resultslisting">
-        <p>All Results (735)</p>
+        <p className="search_allre">All Results (735)</p>
         <div className="search_vl1"></div>
-        <h2> Art (611) </h2>
+        <p> Art (611) </p>
         <div className="search_vl2"></div>
-        <h2>All Press (79) </h2>
+        <p>All Press (79) </p>
         <div className="search_vl3"></div>
-        <h2>Exhibitions (15)</h2>
+        <p>Exhibitions (15)</p>
       </div>
 
       <div className="search_all-boxes">
