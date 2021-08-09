@@ -5,7 +5,6 @@ import img1 from "../Exhibitinfo/image 5.svg";
 import img2 from "../Exhibitinfo/image 10.svg";
 import img3 from "../Exhibitinfo/image 11.svg";
 import img4 from "../Exhibitinfo/image 12.svg";
-import vec from "../Exhibitinfo/Vector.svg";
 import ellipse from "../Exhibitinfo/Ellipse 2.png";
 import question from "../Exhibitinfo/Questionimage.png";
 import vector from "../Exhibitinfo/Vector2.png";
