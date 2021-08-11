@@ -1,169 +1,251 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+.adminProfile_body {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  overflow-x: hidden;
+}
+/*grid stuff*/
+#adminProfile_grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "logo head head"
+    "aside main main"
+    "aside main main";
+}
+.adminProfile_header {
+  grid-area: head;
+  background: #c80764;
+  position: relative;
+  width: auto;
+  height: 68px;
+}
+.adminProfile_logo {
+  grid-area: logo;
+  padding-top: 7px;
+}
+.adminProfile_aside {
+  grid-area: aside;
+  background: #c4c4c4;
+}
+.adminProfile_mainbody {
+  grid-area: main;
+}
+/*header styling*/
+#adminProfile_profile {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  left: 95%;
+  right: 0%;
+  top: 16.22%;
+  bottom: 18.92%;
+}
+#adminProfile_mail,
+#adminexit,
+#adminProfile_bell {
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+}
+#adminProfile_mail {
+  position: absolute;
+  left: 80%;
+  right: 8.15%;
+  top: 23px;
+  bottom: 18.92%;
+}
+#adminProfile_bell {
+  position: absolute;
+  left: 85%;
+  right: 3.98%;
+  top: 23px;
+  bottom: 18.92%;
+}
+#adminProfile_exit {
+  position: absolute;
+  left: 90%;
+  right: 0%;
+  top: 23px;
+  bottom: 18.92%;
+}
+.adminprofileInput {
+  position: absolute;
+  left: 5%;
+  right: 61.61%;
+  top: 16px;
+  bottom: 0%;
+  background: #ffffff;
+  border-radius: 20px;
+  width: 405px;
+  height: 37px;
+  border: none;
+}
+.adminProfile_button {
+  position: absolute;
+  background: none;
+  border: none;
+  top: 22px;
+  left: 430px;
+}
 
-.adminprofile_body {
-  display: block;
-  max-width: 1600px;
-  max-height: 1024px;
-  font-family: "Read Hat Display";
-}
-.adminprofile_header {
+/*aside styling*/
+#adminProfile_button1 {
+  background: #c80764;
+  color: #ffffff;
+  border-radius: 0.25em;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
   width: 100%;
-  height: 100%;
-  /* overflow: hidden; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border: none;
+  padding: 0.7em;
+  text-align: left;
+  margin-bottom: 655px;
 }
-.adminprofile_musad {
-  margin-left: 18px;
+.adminProfile_stats {
+  display: inline-block;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0 0 22px 59px;
 }
-.adminprofile_logo {
+.adminProfile_number {
+  display: inline-block;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  color: #c80764;
   margin-left: 10px;
 }
-.adminprofile_nav {
+
+/*main container styling*/
+#adminProfile_p1 {
+  position: relative;
+  left: 60px;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  margin-top: 4%;
+  line-height: 37px;
+  color: #8a8a8a;
+}
+.adminProfile_container1 {
   display: flex;
-  background-color: #c80764;
-  justify-content: space-between;
   align-items: center;
-  width: 1200px;
-  margin-top: 1px;
+  flex-direction: column;
+  background: #eaeaea;
+  padding-top: 2em;
+  margin: 20px 0 0 200px;
+  width: 866px;
+  padding-bottom: 28px;
+}
+#adminProfile_face {
+  width: 171px;
+  height: 161px;
+  margin-bottom: 23px;
+}
+.adminProfile_info > p:first-child {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 3px;
+}
+.adminProfile_info > p:nth-child(2) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.adminProfile_info > p:nth-child(3) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  color: #c80764;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.adminquestions {
+  background: #a89704;
+  border-radius: 7px;
+  width: 330px;
+  height: 107px;
+}
+.adminquestions p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  color: #ffffff;
+}
+.adminquestions > p:first-child {
+  font-size: 28px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -0.24px;
+}
+#adminProfile_p2 {
+  color: #8a8a8a;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+.adminProfile_container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 975px;
+  margin: 20px 0 0 145px;
+  margin-bottom: 3em;
+}
+#adminProfile_flowers,
+#adminProfile_paint,
+#adminProfile_impression {
+  width: 271px;
+  height: 272px;
+}
+.adminProfile_b2 {
+  background: none;
+  border: none;
 }
 
-.adminprofile_bar {
-  position: absolute;
-  left: 460px;
-  top: 12px;
-}
-.adminprofile_magnifier {
-  position: absolute;
-  left: 820px;
-  top: 19px;
-}
-.adminprofile_icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 2em;
-}
-.adminprofile_icons > img {
-  padding: 0 0.5em;
-}
-.adminprofile_text-2 {
-  position: absolute;
-  left: 470px;
-  top: 100px;
-  font-size: 25px;
-  color: #BABABA;
-}
-.adminprofile_rectangle2 {
-  position: absolute;
-  margin-top: 100px;
-  left: 530px;
-}
-.adminprofile_text {
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  color: white;
-}
-.adminprofile_text-3 {
-  position: absolute;
-  top: 840px;
-  color: white;
-  left: 40px;
-}
-.adminprofile_text-3 span {
-  color: #c80764;
-}
-.adminprofile_side-bar {
-  position: absolute;
-  top: 90px;
-}
-.adminprofile_side-container {
-  position: absolute;
-  top: 164px;
-  bottom: 0%;
-  overflow: hidden;
-}
-.adminprofile_mid-container img {
-  position: absolute;
-  left: 860px;
-  top: 230px;
-}
-.adminprofile_lower-container {
-  margin-left: 650px;
-  margin-right: auto;
-  position: absolute;
-  top: 425px;
-  height: -350px;
-  width: 600px;
-  text-align: center;
-  background-color: #eaeaea;
-}
-.adminprofile_lower-container h3,
-h4,
-h3 {
-  margin: 0;
-  padding-bottom: 6px;
-}
-adminprofile_tiff {
-  color: black;
-  font-weight: bold;
-}
-adminprofile_tiffe {
-  color: black;
-}
-.adminprofile_cur {
-  color: magenta;
-}
-.adminprofile_Profile2 button {
-  position: absolute;
+
+
+.adminProfile_total {
   background-color: #a89704;
   color: white;
-  width: 250px;
-  height: 60px;
+  width: 330px;
+  height: 107px;
   border-radius: 7px;
   border: 2px;
-  top: 530px;
-  bottom: 50px;
-  left: 830px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  
+  text-align: center;
+  letter-spacing: -0.24px;
+  padding-bottom: 15px;
+  color: #FFFFFF;
 }
-.adminprofile_text-4 {
-  position: absolute;
-  top: 650px;
-  left: 840px;
-  color: #BABABA;
-  font-size: 20px;
-}
-.adminprofile_left-arrow {
-  position: absolute;
-  top: 880px;
-  float: left;
-  left: 460px;
-}
-.adminprofile_box-container {
-  display: flex;
-  float: left;
-  width: 33.33%;
-  margin-top: 650px;
-  margin-left: 520px;
-  justify-content: space-between;
-}
-.adminprofile_box2 {
-  display: flex;
-  float: left;
-  width: 33.33%;
-  margin-top: 0px;
-  margin-left: 32px;
-  align-items: center;
-}
-.adminprofile_box3 {
-  float: left;
-  margin-top: 50;
-  margin-left: 140px;
-}
-.adminprofile_right-arrow {
-  position: absolute;
-  top: 880px;
-  right: 80px;
+
+.adminProfile_num {
+  font-size: 28px;
+  line-height: 49px;
 }

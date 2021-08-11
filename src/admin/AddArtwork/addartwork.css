@@ -1,166 +1,5 @@
-.Addartwork_body {
-  font-family: "Red Hat Display", sans-serif;
-}
-.Addartwork_grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "logo head head"
-    "logo main main"
-    "aside main main"
-    "aside main main";
-}
-.Addartwork_header {
-  grid-area: head;
-  background: #c80764;
-  position: relative;
-  width: auto;
-  height: 68px;
-}
-/*header styling*/
-#Addartwork_profile {
-  position: absolute;
-  height: 48px;
-  width: 48px;
-  left: 93%;
-  right: 0%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#Addartwork_mail,
-#Addartwork_exit,
-#Addartwork_bell {
-  position: relative;
-  width: 1.5em;
-  height: 1.5em;
-  margin-top: 1%;
-}
-#Addartwork_mail {
-  position: absolute;
-  left: 80%;
-  right: 8.15%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#Addartwork_bell {
-  position: absolute;
-  left: 84%;
-  right: 3.98%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#Addartwork_exit {
-  position: absolute;
-  left: 88%;
-  right: 0%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-.Addartwork_input {
-  position: absolute;
-  left: 5%;
-  right: 61.61%;
-  top: 16.22%;
-  bottom: 0%;
-  background: #ffffff;
-  border-radius: 20px;
-  width: 405px;
-  height: 37px;
-  border: none;
-}
-.Addartwork_button {
-  position: absolute;
-  background: none;
-  border: none;
-  top: 25%;
-  left: 31em;
-}
-.Addartwork_logo {
-  grid-area: logo;
-  margin-left: 7%;
-  margin-top: 4%;
-}
-/******/
-.Addartwork_aside {
-  grid-area: aside;
-  background: #ffffff;
-  border: 1px solid #8a8a8a;
-  margin-top: 1em;
-  padding-bottom: 2.5em;
-  border-bottom: none;
-}
-/*aside styling*/
-.Addartwork_nav {
-  font-style: normal;
-  font-weight: bold;
-  color: #000000;
-  box-sizing: border-box;
-  padding-left: 1em;
-  background-color: #ffffff;
-  border: none;
-  font-size: 28px;
-  line-height: 37px;
-}
-.Addartwork_aside-b1,
-.Addartwork_aside-b3 {
-  background-color: #ffffff;
-  width: 100%;
-  border: 1px solid #8a8a8a;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  padding: 1em;
-  text-align: initial;
-}
-.Addartwork_aside-b2 {
-  width: 100%;
-  background: #c80764;
-  border: 1px solid #c80764;
-  box-sizing: border-box;
-  padding: 1em;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  color: #ffffff;
-  text-align: initial;
-}
-.Addartwork_aside-b2::before {
-  position: absolute;
-  content: "";
-  width: 53px;
-  height: 53px;
-  background: white;
-  z-index: 100;
-  left: 23.2%;
-  top: 20%;
-  transform: rotate(45deg);
-}
-.Addartwork_aside-b3 {
-  margin-bottom: 23em;
-}
-.Addartwork_stats {
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  color: #8a8a8a;
-  padding-left: 1em;
-}
-.Addartwork_number {
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  color: #c80764;
-}
-/****/
-.Addartwork_main {
-  grid-area: main;
-}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
 /*main styling*/
 #Addartwork_mainp {
   font-style: normal;
@@ -169,11 +8,9 @@
   line-height: 37px;
   color: #8a8a8a;
   margin-left: 61px;
-  margin-top: 2%;
+  margin-bottom: 10px;
 }
-form {
-  display: inline-block;
-}
+
 .Addartwork_mainlabelT, .Addartwork_mainlabelD, .Addartwork_mainlabelN, .Addartwork_mainlabelU{
   font-style: normal;
   font-weight: 500;
@@ -183,10 +20,6 @@ form {
   margin-left: 61px;
 }
 
-.Addartwork_mainlabelN {
-  margin-left: 80px;
-  padding-right: 0%;
-}
 .Addartwork_maininput-3 {
   resize: none;
   width: 830px;
@@ -194,32 +27,26 @@ form {
   background: #ffffff;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
-  border-radius: 6px;
-  padding-top: 4em;
+  padding: 20px 0 0 20px;
   margin-left: 207.07px;
-  margin-bottom: 34px;
   font-size: 21px;
   font-weight: 500;
   color: #8a8a8a;
 }
-.Addartwork_empty {
+
+.Addartwork_emptyp {
   width: 830px;
   height: 48px;
-  background: #f9f9f9;
-  border: 1px solid #8a8a8a;
-  box-sizing: border-box;
-  border-radius: 0px 0px 6px 6px;
-  position: absolute;
-  left: 38%;
-  top: 54%;
-}
-.Addartwork_emptyp {
   font-weight: 500;
   font-size: 21px;
   line-height: 28px;
   color: #8a8a8a;
   text-align: right;
-  padding-right: 0.8em;
+  padding: 10px 10px 0 0;
+  border: 1px solid #8a8a8a;
+  background: #f9f9f9;
+  border-radius: 0px 0px 6px 6px;
+  margin: -5px 0 20px 207px;
 }
 .Addartwork_empty1 {
   width: 830px;
@@ -227,11 +54,8 @@ form {
   background: #f9f9f9;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
-  border-radius: 0px 0px 6px 6px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  position: absolute;
-  top: 28%;
-  left: 37.95%;
+  border-radius: 6px 6px 0 0;
+  margin-left: 37px;
 }
 .Addartwork_maininput-1 {
   width: 830px;
@@ -241,12 +65,11 @@ form {
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
   border-radius: 6px;
-  margin-left: 105px;
-  margin-top: 2%;
+  margin: 20px 0 14px 105px;
 }
 .Addartwork_maininput-2 {
   margin-left: 150px;
-  margin-top: 1%;
+  margin-top: 10px;
   width: 830px;
   height: 50px;
   margin-left: 19px;
@@ -255,12 +78,10 @@ form {
   box-sizing: border-box;
   border-radius: 6px;
 }
-.Addartwork_artistname {
-  margin-left: -2%;
-}
+
 .Addartwork_maininput-4 {
   margin-bottom: 41px;
-  margin-left: 80px;
+  margin-left: 89px;
   width: 830px;
   height: 50px;
   background: #ffffff;
@@ -269,17 +90,17 @@ form {
   border-radius: 6px;
 }
 .Addartwork_URL {
-margin-left: 2%;
+margin-left: 20px;
 display: flex;
 }
 
 .Addartwork_buttoncontainer {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 800px;
   justify-content: space-around;
   margin-bottom: 24px;
-  margin-left: 156px;
+  margin-left: 173px;
 }
 .Addartwork_button-1,
 .Addartwork_button-2,
@@ -292,30 +113,32 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
 }
-.pluscircle {
-  margin-top: 4em;
+.Addart_pluscircle {
+  margin-top: 40px;
 }
 
 .Addartwork_plusart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #c80764;
-  box-sizing: border-box;
   border-radius: 4px;
   background-color: #ffffff;
   position: relative;
   height: 40px;
   width: 590px;
   left: 327.7px;
-  font-style: normal;
   font-weight: 900;
   font-size: 13px;
-  line-height: 17px;
-  text-align: center;
   letter-spacing: -0.2px;
   margin-bottom: 50px;
 }
 #Addartwork_save {
-  margin-left: 240px;
+  margin-left: 210px;
   display: inline-block;
   height: 40px;
   width: 99px;
@@ -350,5 +173,210 @@ display: flex;
   margin-top: -10%;
 }
 .Addartwork_savcan {
-  margin-top: -1%;
+  margin-bottom: 70px;
+}
+
+.Addart_header {
+  display: flex;
+  height: 68px;
+  border: none;
+}
+.Addart_pnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c80764;
+  width: 100vw;
+}
+.Addart_bar {
+  margin-left: 50px;
+  height: 37px;
+  border-radius: 20px;
+}
+#Addart_site-search {
+  width: 405px;
+  height: 39px;
+  border-radius: 20px;
+  border: none;
+}
+.Addart_serbut {
+  position: absolute;
+  top: 22px;
+  left: 823px;
+  background-color: transparent;
+  border: none;
+}
+.Addart_logo {
+  display: flex;
+  min-width: 404px;
+  height: 44px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48.95px;
+  padding-left: 1%;
+  border: none;
+  padding-bottom: 1%;
+}
+.Addart_muspic {
+  Width: 46px;
+  height: 44px;
+  margin-top: 2%;
+}
+.Addart_logo h1 {
+  margin: 13px 0 0 2px;
+  font-family: red hat display;
+}
+.Addart_gold {
+  color: #a89804;
+}
+.Addart_mail {
+  margin-bottom: 17px;
+}
+.Addart_bell {
+  margin-left: 20px;
+  margin-bottom: 17px;
+}
+.Addart_logout {
+  margin-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 17px;
+}
+.Addart_proimage {
+  margin-top: 9px;
+}
+
+/* aside */
+
+.Addart_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 405px;
+  border: 1px solid #8a8a8a;
+  border-bottom: none;
+}
+.Addart_navtop {
+  display: flex;
+  flex-direction: column;
+}
+.Addart_dash {
+  background-color: white;
+  height: 62px;
+  width: 404.1px;
+  border: 1px solid #8a8a8a;
+  text-align: left;
+  font-size: 17px;
+  padding: 14px 0 0 53px;
+  color: black;
+}
+.Addart_add {
+  border-right: none;
+  background-color: #c80764;
+  border: none;
+  color: white;
+}
+.Addart_container a:link {
+  color: black;
+  text-decoration: none;
+}
+.Addart_container a:visited {
+  text-decoration: none;
+}
+.Addart_container a:hover {
+  color: black;
+}
+.Addart_container a:active {
+  color: black;
+}
+
+.Addart_navimen {
+  font-size: 18px;
+  height: 55px;
+  font-family:'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  padding: 10px 0 0 28px;
+}
+.Addart_menu {
+  margin-top: 3%;
+}
+
+.Addart_poly {
+  display: block;
+  margin-left: 311px;
+  margin-top: -42px;
+}
+.Addart_unans {
+  padding-bottom: 50px;
+}
+.Addart_P {
+  text-align: left;
+  margin: 22px 0 22px 56px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #8a8a8a;
+}
+.Addart_pink {
+  color: #c80764;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.Addart_body {
+  display: flex;
+  margin-top: 24px;
+}
+
+.Addart_serwhite {
+  display: none;
+}
+
+@media screen and (max-width: 1075px) {
+  .Addart_container {
+    padding-bottom: 50px;
+    overflow-y: hidden;
+    background-color: #ffffff;
+  }
+  .Addart_logo {
+    display: none;
+  }
+  #Addart_site-search {
+    display: none;
+  }
+  .Addart_searchsym {
+    display: none;
+  }
+
+  .Addart_component {
+    margin-left: 60px;
+  }
+
+  .Addart_body {
+    justify-content: center;
+  }
+
+  .Addart_pnav {
+    padding-top: 10px;
+  }
+  .Addart_serbut {
+    position: initial;
+  }
+ 
+  .Addart_serwhite {
+    display: block;
+    margin-left: 25px;
+    background-color: transparent;
+    border: none;
+  }
+  .Addart_proimage {
+    margin: 0 10px 0px 0;
+    width: 50px;
+  }
+  
+  .Addart_nav {
+    display: none;
+  }
 }
