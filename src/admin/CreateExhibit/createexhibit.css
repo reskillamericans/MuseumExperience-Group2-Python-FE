@@ -1,180 +1,17 @@
-.createExhibit_body {
-  font-family: "Red Hat Display", sans-serif;
-}
-.createExhibit_grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "logo head head"
-    "logo main main"
-    "aside main main"
-    "aside main main";
-}
-.createExhibit_header {
-  grid-area: head;
-  background: #c80764;
-  position: relative;
-  width: auto;
-  height: 68px;
-}
-/*header styling*/
-#createExhibit_profile {
-  position: absolute;
-  height: 48px;
-  width: 48px;
-  left: 95%;
-  right: 0%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#createExhibit_mail,
-#createExhibit_exit,
-#createExhibit_bell {
-  position: relative;
-  width: 1.5em;
-  height: 1.5em;
-}
-#createExhibit_mail {
-  position: absolute;
-  left: 80%;
-  right: 8.15%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#createExhibit_bell {
-  position: absolute;
-  left: 85%;
-  right: 3.98%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-#createExhibit_exit {
-  position: absolute;
-  left: 90%;
-  right: 0%;
-  top: 16.22%;
-  bottom: 18.92%;
-}
-.createExhibit_input {
-  position: absolute;
-  left: 5%;
-  right: 61.61%;
-  top: 16.22%;
-  bottom: 0%;
-  background: #ffffff;
-  border-radius: 20px;
-  width: 405px;
-  height: 37px;
-  border: none;
-}
-.createExhibit_button {
-  position: absolute;
-  background: none;
-  border: none;
-  top: 25%;
-  left: 31em;
-}
-.createExhibit_logo {
-  grid-area: logo;
-  margin-left: 7%;
-  margin-top: 4%;
-}
-/******/
-.createExhibit_aside {
-  grid-area: aside;
-  background: #ffffff;
-  border: 1px solid #8a8a8a;
-  margin-top: 1em;
-  padding-bottom: 2.5em;
-}
-/*aside styling*/
-.createExhibit_nav {
-  font-style: normal;
-  font-weight: bold;
-  color: #000000;
-  box-sizing: border-box;
-  padding-left: 1em;
-  background-color: #ffffff;
-  border: none;
-  font-size: 28px;
-  line-height: 37px;
-}
-.aside-b1,
-.aside-b3 {
-  background-color: #ffffff;
-  width: 100%;
-  border: 1px solid #8a8a8a;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  padding: 1em;
-  text-align: initial;
-}
-.aside-b2 {
-  width: 100%;
-  background: #c80764;
-  border: 1px solid #c80764;
-  box-sizing: border-box;
-  padding: 1em;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  color: #ffffff;
-  text-align: initial;
-}
-.aside-b2::before {
-  position: absolute;
-  content: "";
-  width: 53px;
-  height: 53px;
-  background: white;
-  z-index: 100;
-  left: 23.2%;
-  top: 21%;
-  transform: rotate(45deg);
-}
-.aside-b3 {
-  margin-bottom: 21.5em;
-}
-.createExhibit_stats {
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 28px;
-  color: #8a8a8a;
-  padding-left: 1em;
-}
-.createExhibit_number {
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  color: #c80764;
-}
-/****/
-.createExhibit_main {
-  grid-area: main;
-}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
 /*main styling*/
-#mainp {
+#crex_mainp {
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
   line-height: 37px;
   color: #8a8a8a;
   margin-left: 61px;
-  margin-top: 2.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 10px;
 }
-form {
-  display: inline-block;
-}
-.mainlabel {
-  position: absolute;
+
+.crex_mainlabelT, .crex_mainlabelD, .crex_mainlabelN, .crex_mainlabelU{
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
@@ -183,113 +20,125 @@ form {
   margin-left: 61px;
 }
 
-.maininput-3 {
+.crex_maininput-3 {
   resize: none;
   width: 830px;
   height: 286px;
   background: #ffffff;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
-  border-radius: 6px;
-  padding-top: 4em;
+  padding: 20px 0 0 20px;
   margin-left: 207.07px;
-  margin-bottom: 3.5em;
   font-size: 21px;
   font-weight: 500;
   color: #8a8a8a;
 }
-.empty {
+
+.crex_emptyp {
   width: 830px;
   height: 48px;
-  background: #f9f9f9;
-  border: 1px solid #8a8a8a;
-  box-sizing: border-box;
-  border-radius: 0px 0px 6px 6px;
-  position: absolute;
-  left: 38%;
-  top: 52%;
-}
-.emptyp {
   font-weight: 500;
   font-size: 21px;
   line-height: 28px;
   color: #8a8a8a;
   text-align: right;
-  padding-right: 0.8em;
+  padding: 10px 10px 0 0;
+  border: 1px solid #8a8a8a;
+  background: #f9f9f9;
+  border-radius: 0px 0px 6px 6px;
+  margin: -5px 0 20px 207px;
 }
-.empty1 {
+.crex_empty1 {
   width: 830px;
   height: 61px;
   background: #f9f9f9;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
-  border-radius: 0px 0px 6px 6px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  position: absolute;
-  top: 28%;
-  left: 37.95%;
+  border-radius: 6px 6px 0 0;
+  margin-left: 37px;
 }
-.maininput-1,
-.maininput-4 {
+.crex_maininput-1 {
   width: 830px;
   height: 50px;
   margin-left: 207.07px;
+  background: #ffffff; 
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 20px 0 14px 20px;
+}
+.crex_maininput-2 {
+  margin-left: 150px;
+  margin-top: 10px;
+  width: 830px;
+  height: 50px;
+  margin-left: 19px;
   background: #ffffff;
   border: 1px solid #8a8a8a;
   box-sizing: border-box;
   border-radius: 6px;
 }
-.maininput-1 {
-  margin-bottom: 2em;
-}
-.maininput-4 {
+
+.crex_maininput-4 {
   margin-bottom: 41px;
+  margin-left: 89px;
+  width: 830px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.crex_URL {
+margin-left: 20px;
+display: flex;
 }
 
-.createExhibit_buttoncontainer {
+.crex_buttoncontainer {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 800px;
   justify-content: space-around;
-  margin-bottom: 2.5em;
-  margin-left: 140.07px;
-  margin-top: -4%;
+  margin-bottom: 24px;
+  margin-left: 173px;
 }
-.button-1,
-.button-2,
-.button-3 {
+.crex_button-1,
+.crex_button-2,
+.crex_button-3 {
   border: 1px solid #8a8a8a;
   border-radius: 4px;
   background-color: #ffffff;
-  height: 150px;
-  width: 150px;
+  height: 144px;
+  width: 197px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
 }
-.pluscircle {
-  margin-top: 4em;
+.crex_pluscircle {
+  margin-top: 40px;
 }
 
-.plusart {
+.crex_plusart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #c80764;
-  box-sizing: border-box;
   border-radius: 4px;
   background-color: #ffffff;
   position: relative;
   height: 40px;
   width: 590px;
   left: 327.7px;
-  font-style: normal;
   font-weight: 900;
   font-size: 13px;
-  line-height: 17px;
-  text-align: center;
   letter-spacing: -0.2px;
-  margin-bottom: 4em;
+  margin-bottom: 50px;
 }
-#createExhibit_save {
-  margin-left: 240px;
+#crex_save {
+  margin-left: 210px;
   display: inline-block;
   height: 40px;
   width: 99px;
@@ -304,7 +153,7 @@ form {
   letter-spacing: -0.2px;
   font-weight: bold;
 }
-#createExhibit_cancel {
+#crex_cancel {
   display: inline;
   height: 40px;
   width: 99px;
@@ -319,7 +168,215 @@ form {
   letter-spacing: -0.2px;
   color: #8a8a8a;
 }
-#createExhibit_save,
-#createExhibit_cancel {
-  margin-top: -5%;
+#crex_save,
+#crex_cancel {
+  margin-top: -10%;
+}
+.crex_savcan {
+  margin-bottom: 70px;
+}
+
+.crex_header {
+  display: flex;
+  height: 68px;
+  border: none;
+}
+.crex_pnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c80764;
+  width: 100vw;
+}
+.crex_bar {
+  margin-left: 50px;
+  height: 37px;
+  border-radius: 20px;
+}
+#crex_site-search {
+  width: 405px;
+  height: 39px;
+  border-radius: 20px;
+  border: none;
+}
+.crex_serbut {
+  position: absolute;
+  top: 22px;
+  left: 823px;
+  background-color: transparent;
+  border: none;
+}
+.crex_logo {
+  display: flex;
+  min-width: 404px;
+  height: 44px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48.95px;
+  padding-left: 1%;
+  border: none;
+  padding-bottom: 1%;
+}
+.crex_muspic {
+  Width: 46px;
+  height: 44px;
+  margin-top: 2%;
+}
+.crex_logo h1 {
+  margin: 13px 0 0 2px;
+  font-family: red hat display;
+}
+.crex_gold {
+  color: #a89804;
+}
+.crex_mail {
+  margin-bottom: 17px;
+}
+.crex_bell {
+  margin-left: 20px;
+  margin-bottom: 17px;
+}
+.crex_logout {
+  margin-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 17px;
+}
+.crex_proimage {
+  margin-top: 9px;
+}
+
+/* aside */
+
+.crex_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 405px;
+  border: 1px solid #8a8a8a;
+  border-bottom: none;
+}
+.crex_navtop {
+  display: flex;
+  flex-direction: column;
+}
+.crex_dash {
+  background-color: white;
+  height: 62px;
+  width: 404.1px;
+  border: 1px solid #8a8a8a;
+  text-align: left;
+  font-size: 17px;
+  padding: 14px 0 0 53px;
+  color: black;
+}
+.crex_add {
+  border-right: none;
+  background-color: #c80764;
+  border: none;
+  color: white;
+}
+.crex_container a:link {
+  color: black;
+  text-decoration: none;
+}
+.crex_container a:visited {
+  text-decoration: none;
+}
+.crex_container a:hover {
+  color: black;
+}
+.crex_container a:active {
+  color: black;
+}
+
+.crex_navimen {
+  font-size: 18px;
+  height: 55px;
+  font-family:'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  padding: 10px 0 0 28px;
+}
+.crex_menu {
+  margin-top: 3%;
+}
+
+.crex_poly {
+  display: block;
+  margin-left: 311px;
+  margin-top: -42px;
+}
+.crex_unans {
+  padding-bottom: 50px;
+}
+.crex_P {
+  text-align: left;
+  margin: 22px 0 22px 56px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #8a8a8a;
+}
+.crex_pink {
+  color: #c80764;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.crex_body {
+  display: flex;
+  margin-top: 24px;
+}
+
+.crex_serwhite {
+  display: none;
+}
+
+@media screen and (max-width: 1075px) {
+  .crex_container {
+    padding-bottom: 50px;
+    overflow-y: hidden;
+    background-color: #ffffff;
+  }
+  .crex_logo {
+    display: none;
+  }
+  #crex_site-search {
+    display: none;
+  }
+  .crex_searchsym {
+    display: none;
+  }
+
+  .crex_component {
+    margin-left: 60px;
+  }
+
+  .crex_body {
+    justify-content: center;
+  }
+
+  .crex_pnav {
+    padding-top: 10px;
+  }
+  .crex_serbut {
+    position: initial;
+  }
+ 
+  .crex_serwhite {
+    display: block;
+    margin-left: 25px;
+    background-color: transparent;
+    border: none;
+  }
+  .crex_proimage {
+    margin: 0 10px 0px 0;
+    width: 50px;
+  }
+  
+  .crex_nav {
+    display: none;
+  }
 }
