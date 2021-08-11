@@ -42,10 +42,10 @@ function Navbar() {
         {/* Nav links */}
         <div className="nav-links">
           <a href="/">Home</a>
-          <a href="/exhibits">Exhibits</a>
+          <a href="/exhibit">Exhibits</a>
           <a href="/login">Login</a>
           <a href="/register">Register</a>
-          <a href="about us">About Us</a>
+          <a href="about">About Us</a>
         </div>
       </div>
     </>
