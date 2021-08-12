@@ -131,10 +131,10 @@
 .poly {
   display: block;
   margin-left: 311px;
-  margin-top: -47px;
+  margin-top: -42px;
 }
 .unans {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .exhibitP {
   text-align: left;
@@ -205,7 +205,6 @@
 
 .adEx-body {
   display: flex;
-  margin-top: 24px;
 }
 
 .serwhite {
@@ -233,6 +232,7 @@
 
 .adEx-body {
   justify-content: center;
+  margin-top: 24px;
 }
   .Exhibit_container {
     overflow-y: hidden;
