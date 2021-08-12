@@ -1,6 +1,5 @@
 .rolesBackground {
     background: #FFFFFF;
-    min-height: 100vh;
 }
 
 .rolesContainer {
@@ -103,6 +102,10 @@
     display: none;
 }
 
+.roles_nav  {
+    display: none;
+}
+
 @media(min-width: 425px) {
     .rolesPeopleMobile {
         width: 400px;
@@ -121,9 +124,12 @@
     }
 }
 
-@media(min-width: 1142px) {
+@media(min-width: 1160px) {
+    .adrol-body {
+        display: flex;
+    }
     .rolesContainer {
-        min-height: 100vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -151,7 +157,7 @@
         line-height: 28px;
         color: #C80764;
         gap: 10px;
-        padding-left: 10px;
+        padding-left: 17px;
     }
 
     .rolesButtonMobile {
@@ -222,4 +228,36 @@
     .rolesLastUser {
         display: flex;
     }
+}
+
+@media(min-width: 1540px) {
+    .roles_nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 405px;
+        border: 1px solid #8a8a8a;
+        border-bottom: none;
+        padding-bottom: 120px;
+      }
+
+      .roles-poly {
+        display: block;
+        margin-left: 311px;
+        margin-top: -43px;
+      }
+
+      .rolesBackground a:link {
+        color: black;
+        text-decoration: none;
+      }
+      .rolesBackground a:visited {
+        text-decoration: none;
+      }
+      .rolesBackground a:hover {
+        color: black;
+      }
+      .rolesBackground a:active {
+        color: black;
+      }
 }

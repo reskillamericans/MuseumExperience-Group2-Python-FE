@@ -47,14 +47,14 @@ export default function Exhibit() {
         <div className="Exhibit_nav">
           <div className='adex-navtop'>
             <h2 className="navimen">NAVIGATION MENU</h2>
-            <a href="/" className="Exhibit_dash">
+            <a href="/dashboard" className="Exhibit_dash">
               <h3>Dashboard</h3>
             </a>
-            <a href="/" className="Exhibit_dash exhi">
+            <a href="/admin-exhibit" className="Exhibit_dash exhi">
               <h3>Exhibits</h3>
               <img src={poly} alt="triangle" className="poly" />
             </a>
-            <a href="/" className="Exhibit_dash">
+            <a href="/admin-role" className="Exhibit_dash">
               <h3>Admin Roles</h3>
             </a>
           </div>

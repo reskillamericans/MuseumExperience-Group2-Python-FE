@@ -133,16 +133,16 @@
   .adminlogin-account {
     display: none;
   }
-  a:link {
+  .adminlogin-container a:link {
     color: #1482db;
   }
-  a:visited {
+  .adminlogin-container a:visited {
     color: #1482db;
   }
-  a:hover {
+  .adminlogin-container a:hover {
     color: #1482db;
   }
-  a:active {
+  .adminlogin-container a:active {
     color: #1482db;
   }
 
